@@ -351,15 +351,26 @@ export default function Home() {
               className="text-anime-style-3"
               data-cursor="-opaque"
             >
-              Driving Smarter Financial and Business Growth
+              Nova Phoenix
             </h2>
             <p
               className="wow fadeInUp"
               data-wow-delay="0.2s"
             >
-              As your dedicated partner in smart financial and business growth,
-              we bring clarity, strategy, and foresight to every decision you make.
-              Our approach blends deep industry knowledge
+              Nova Phoenix General Contracting and Maintenance Company is a leading and
+              reputable construction and facility management organization with a strong
+              commitment to excellence, professionalism, and customer satisfaction. Nova
+              Phoenix has established itself as a highly specialized construction,
+              maintenance, interior designing, civil and MEP works. Our unparalleled
+              engineering skills, professionalism and strong commitment to each and every
+              project have made us the preferred choice for both government and private
+              sectors. Nova Phoenix believes in meeting the highest standards of quality
+              services. As a quality company, we are committed to complying with the
+              industry standards, codes and practice. We work in partnership with
+              consultants, building contractors, interior contractors, building facility
+              team, site in charges and clients to guarantee a planned and systematic
+              installation, inspection, testing, commissioning and maintenance of civil
+              &amp; MEP services.
             </p>
           </div>
 
@@ -451,7 +462,7 @@ export default function Home() {
             className="text-anime-style-3"
             data-cursor="-opaque"
           >
-            Innovative Services that Elevate your Business Potential
+            Comprehensive Solutions Built on Quality & Expertise
           </h2>
         </div>
       </div>
@@ -459,20 +470,18 @@ export default function Home() {
 
     <div className="row service-item-list-metal">
 
+      {/* General Contracting */}
       <div className="col-xl-3 col-md-6">
         <div className="service-item-metal wow fadeInUp">
           <div className="service-item-header-metal">
             <div className="icon-box">
-              <img
-                src="images/icon-our-service-1-metal.svg"
-                alt=""
-              />
+              <img src="images/icon-our-service-1-metal.svg" alt="" />
             </div>
             <div className="service-item-content-metal">
               <h2>
-                <a href="service-single.html">Financial Planning</a>
+                <a href="service-single.html">General Contracting</a>
               </h2>
-              <p>Build a strong &amp; secure finance future with structured.</p>
+              <p>Reliable end-to-end construction services delivered with precision.</p>
             </div>
           </div>
 
@@ -484,6 +493,7 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Facilities Management */}
       <div className="col-xl-3 col-md-6">
         <div
           className="service-item-metal active wow fadeInUp"
@@ -491,16 +501,13 @@ export default function Home() {
         >
           <div className="service-item-header-metal">
             <div className="icon-box">
-              <img
-                src="images/icon-our-service-2-metal.svg"
-                alt=""
-              />
+              <img src="images/icon-our-service-2-metal.svg" alt="" />
             </div>
             <div className="service-item-content-metal">
               <h2>
-                <a href="service-single.html">Portfolio Strategy</a>
+                <a href="service-single.html">Facilities Management</a>
               </h2>
-              <p>Build a strong &amp; secure finance future with structured.</p>
+              <p>Efficient maintenance solutions ensuring safety and performance.</p>
             </div>
           </div>
 
@@ -512,6 +519,7 @@ export default function Home() {
         </div>
       </div>
 
+      {/* MEP Services */}
       <div className="col-xl-3 col-md-6">
         <div
           className="service-item-metal wow fadeInUp"
@@ -519,16 +527,13 @@ export default function Home() {
         >
           <div className="service-item-header-metal">
             <div className="icon-box">
-              <img
-                src="images/icon-our-service-3-metal.svg"
-                alt=""
-              />
+              <img src="images/icon-our-service-3-metal.svg" alt="" />
             </div>
             <div className="service-item-content-metal">
               <h2>
-                <a href="service-single.html">Business Strategy</a>
+                <a href="service-single.html">MEP Services</a>
               </h2>
-              <p>Build a strong &amp; secure finance future with structured.</p>
+              <p>Expert electro-mechanical & plumbing solutions for all projects.</p>
             </div>
           </div>
 
@@ -540,6 +545,7 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Interior Design & Fit-Out */}
       <div className="col-xl-3 col-md-6">
         <div
           className="service-item-metal wow fadeInUp"
@@ -547,16 +553,13 @@ export default function Home() {
         >
           <div className="service-item-header-metal">
             <div className="icon-box">
-              <img
-                src="images/icon-our-service-4-metal.svg"
-                alt=""
-              />
+              <img src="images/icon-our-service-4-metal.svg" alt="" />
             </div>
             <div className="service-item-content-metal">
               <h2>
-                <a href="service-single.html">Entrepreneur Advisory</a>
+                <a href="service-single.html">Interior Design & Fit-Out</a>
               </h2>
-              <p>Build a strong &amp; secure finance future with structured.</p>
+              <p>Complete interior solutions tailored to functional elegance.</p>
             </div>
           </div>
 
@@ -568,13 +571,14 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Footer */}
       <div className="col-lg-12">
         <div
           className="section-footer-text wow fadeInUp"
           data-wow-delay="0.2s"
         >
           <p>
-            Join our team and help weave innovation, quality, and success together worldwide.
+            Delivering excellence through innovation, engineering, and trusted partnerships.
           </p>
           <ul>
             <li><span className="counter">4.9</span>/5</li>
@@ -585,7 +589,7 @@ export default function Home() {
               <i className="fa-solid fa-star"></i>
               <i className="fa-solid fa-star"></i>
             </li>
-            <li>Our 4200 Review</li>
+            <li>Trusted by 4200+ Clients</li>
           </ul>
         </div>
       </div>
@@ -658,10 +662,10 @@ export default function Home() {
                   <h3>02</h3>
                 </div>
               </div>
-              <div className="why-choose-item-content-metal">
-                <h2>$<span className="counter">50</span></h2>
-                <p>Crore+ Wealth Guided and Managed</p>
-              </div>
+            <div className="why-choose-item-content-metal">
+              <h2>₹<span className="counter">50</span></h2>
+              <p>Crore+ Wealth Guided and Managed</p>
+            </div>
             </div>
 
           </div>
@@ -710,7 +714,7 @@ export default function Home() {
 
               <div className="why-choose-cta-progress-circle-content-metal">
                 <p>Data Information</p>
-                <h3>$<span className="counter">1,234.00</span></h3>
+                <h3>₹<span className="counter">1,234.00</span></h3>
               </div>
             </div>
 
@@ -1233,7 +1237,7 @@ export default function Home() {
               support for startup & small business.
             </p>
             <h3>
-              $199<sub>/Per Month</sub>
+              ₹199<sub>/Per Month</sub>
             </h3>
           </div>
           {/* Pricing Item Content End */}
@@ -1293,7 +1297,7 @@ export default function Home() {
               support for startup & small business.
             </p>
             <h3>
-              $499<sub>/Per Month</sub>
+              ₹499<sub>/Per Month</sub>
             </h3>
           </div>
           {/* Pricing Item Content End */}
@@ -1353,7 +1357,7 @@ export default function Home() {
               support for startup & small business.
             </p>
             <h3>
-              $699<sub>/Per Month</sub>
+              ₹699<sub>/Per Month</sub>
             </h3>
           </div>
           {/* Pricing Item Content End */}
@@ -2283,24 +2287,25 @@ export default function Home() {
           <div className="footer-links-metal">
             <h3>Quick Links</h3>
             <ul>
-              <li><a href="index-3.html">Home</a></li>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="blog.html">Our Blogs</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about-us">About Us</a></li>
+              <li><a href="/services">Services</a></li>
+              <li><a href="/blog">Our Blogs</a></li>
+              <li><a href="/contact-us">Contact Us</a></li>
             </ul>
           </div>
 
           {/* Our Services */}
           <div className="footer-links-metal">
             <h3>Our Services</h3>
-            <ul>
-              <li><a href="service-single.html">Financial Planning</a></li>
-              <li><a href="service-single.html">Wealth Management</a></li>
-              <li><a href="service-single.html">Investment Strategies</a></li>
-              <li><a href="service-single.html">Risk Management</a></li>
-              <li><a href="service-single.html">Digital Marketing</a></li>
-            </ul>
+           <ul>
+  <li><a href="/services">General Contracting</a></li>
+  <li><a href="/services">Facilities Management</a></li>
+  <li><a href="/services">Electro Mechanical Services (MEP)</a></li>
+  <li><a href="/services">Interior Design & Fit-Out</a></li>
+  <li><a href="/services">ELV Systems</a></li>
+</ul>
+
           </div>
 
           {/* Social Media */}

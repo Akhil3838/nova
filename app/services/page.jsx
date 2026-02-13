@@ -221,6 +221,7 @@ function page() {
   <div className="container">
     <div className="row service-items-list">
 
+      {/* General Contracting */}
       <div className="col-xl-3 col-md-6">
         <div className="service-item wow fadeInUp">
           <div className="service-item-bg-shape">
@@ -234,20 +235,19 @@ function page() {
           <div className="service-item-body">
             <div className="service-item-content">
               <h2>
-                <a href="service-single.html">Financial Planning</a>
+                <a href="service-single.html">General Contracting</a>
               </h2>
-              <p>Get expert guidance to streamline operations, solve challenges.</p>
+              <p>End-to-end construction solutions delivered with quality and precision.</p>
             </div>
 
             <div className="service-item-btn">
-              <a href="service-single.html" className="readmore-btn">
-                Learn More
-              </a>
+              <a href="service-single.html" className="readmore-btn">Learn More</a>
             </div>
           </div>
         </div>
       </div>
 
+      {/* Facilities Management */}
       <div className="col-xl-3 col-md-6">
         <div className="service-item active wow fadeInUp" data-wow-delay="0.2s">
           <div className="service-item-bg-shape">
@@ -261,20 +261,19 @@ function page() {
           <div className="service-item-body">
             <div className="service-item-content">
               <h2>
-                <a href="service-single.html">Business Consulting</a>
+                <a href="service-single.html">Facilities Management</a>
               </h2>
-              <p>Get expert guidance to streamline operations, solve challenges.</p>
+              <p>Efficient maintenance and operational services for buildings and assets.</p>
             </div>
 
             <div className="service-item-btn">
-              <a href="service-single.html" className="readmore-btn">
-                Learn More
-              </a>
+              <a href="service-single.html" className="readmore-btn">Learn More</a>
             </div>
           </div>
         </div>
       </div>
 
+      {/* Electro Mechanical Services (MEP) */}
       <div className="col-xl-3 col-md-6">
         <div className="service-item wow fadeInUp" data-wow-delay="0.4s">
           <div className="service-item-bg-shape">
@@ -288,20 +287,19 @@ function page() {
           <div className="service-item-body">
             <div className="service-item-content">
               <h2>
-                <a href="service-single.html">Investment Advisory</a>
+                <a href="service-single.html">Electro Mechanical Services (MEP)</a>
               </h2>
-              <p>Get expert guidance to streamline operations, solve challenges.</p>
+              <p>Expert solutions for electrical, mechanical, and plumbing systems.</p>
             </div>
 
             <div className="service-item-btn">
-              <a href="service-single.html" className="readmore-btn">
-                Learn More
-              </a>
+              <a href="service-single.html" className="readmore-btn">Learn More</a>
             </div>
           </div>
         </div>
       </div>
 
+      {/* Interior Design & Fit Out */}
       <div className="col-xl-3 col-md-6">
         <div className="service-item wow fadeInUp" data-wow-delay="0.6s">
           <div className="service-item-bg-shape">
@@ -315,20 +313,19 @@ function page() {
           <div className="service-item-body">
             <div className="service-item-content">
               <h2>
-                <a href="service-single.html">Strategic Consulting</a>
+                <a href="service-single.html">Interior Design & Fit Out</a>
               </h2>
-              <p>Get expert guidance to streamline operations, solve challenges.</p>
+              <p>Complete interior solutions from concept to flawless execution.</p>
             </div>
 
             <div className="service-item-btn">
-              <a href="service-single.html" className="readmore-btn">
-                Learn More
-              </a>
+              <a href="service-single.html" className="readmore-btn">Learn More</a>
             </div>
           </div>
         </div>
       </div>
 
+      {/* ELV Systems */}
       <div className="col-xl-3 col-md-6">
         <div className="service-item wow fadeInUp" data-wow-delay="0.8s">
           <div className="service-item-bg-shape">
@@ -342,96 +339,13 @@ function page() {
           <div className="service-item-body">
             <div className="service-item-content">
               <h2>
-                <a href="service-single.html">Digital Marketing</a>
+                <a href="service-single.html">ELV Systems</a>
               </h2>
-              <p>Get expert guidance to streamline operations, solve challenges.</p>
+              <p>Advanced low-voltage systems including security and automation.</p>
             </div>
 
             <div className="service-item-btn">
-              <a href="service-single.html" className="readmore-btn">
-                Learn More
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="col-xl-3 col-md-6">
-        <div className="service-item wow fadeInUp" data-wow-delay="1s">
-          <div className="service-item-bg-shape">
-            <img src="images/service-item-bg-shape-3.png" alt="" />
-          </div>
-
-          <div className="icon-box">
-            <img src="images/icon-service-item-6.svg" alt="" />
-          </div>
-
-          <div className="service-item-body">
-            <div className="service-item-content">
-              <h2>
-                <a href="service-single.html">Project Management</a>
-              </h2>
-              <p>Get expert guidance to streamline operations, solve challenges.</p>
-            </div>
-
-            <div className="service-item-btn">
-              <a href="service-single.html" className="readmore-btn">
-                Learn More
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="col-xl-3 col-md-6">
-        <div className="service-item wow fadeInUp" data-wow-delay="1.2s">
-          <div className="service-item-bg-shape">
-            <img src="images/service-item-bg-shape-1.png" alt="" />
-          </div>
-
-          <div className="icon-box">
-            <img src="images/icon-service-item-7.svg" alt="" />
-          </div>
-
-          <div className="service-item-body">
-            <div className="service-item-content">
-              <h2>
-                <a href="service-single.html">Smart Execution</a>
-              </h2>
-              <p>Get expert guidance to streamline operations, solve challenges.</p>
-            </div>
-
-            <div className="service-item-btn">
-              <a href="service-single.html" className="readmore-btn">
-                Learn More
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="col-xl-3 col-md-6">
-        <div className="service-item wow fadeInUp" data-wow-delay="1.4s">
-          <div className="service-item-bg-shape">
-            <img src="images/service-item-bg-shape-2.png" alt="" />
-          </div>
-
-          <div className="icon-box">
-            <img src="images/icon-service-item-8.svg" alt="" />
-          </div>
-
-          <div className="service-item-body">
-            <div className="service-item-content">
-              <h2>
-                <a href="service-single.html">Compliance Services</a>
-              </h2>
-              <p>Get expert guidance to streamline operations, solve challenges.</p>
-            </div>
-
-            <div className="service-item-btn">
-              <a href="service-single.html" className="readmore-btn">
-                Learn More
-              </a>
+              <a href="service-single.html" className="readmore-btn">Learn More</a>
             </div>
           </div>
         </div>
@@ -1182,24 +1096,25 @@ function page() {
           <div className="footer-links-metal">
             <h3>Quick Links</h3>
             <ul>
-              <li><a href="index-3.html">Home</a></li>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="blog.html">Our Blogs</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about-us">About Us</a></li>
+              <li><a href="/services">Services</a></li>
+              <li><a href="/blog">Our Blogs</a></li>
+              <li><a href="/contact-us">Contact Us</a></li>
             </ul>
           </div>
 
           {/* Our Services */}
           <div className="footer-links-metal">
             <h3>Our Services</h3>
-            <ul>
-              <li><a href="service-single.html">Financial Planning</a></li>
-              <li><a href="service-single.html">Wealth Management</a></li>
-              <li><a href="service-single.html">Investment Strategies</a></li>
-              <li><a href="service-single.html">Risk Management</a></li>
-              <li><a href="service-single.html">Digital Marketing</a></li>
-            </ul>
+           <ul>
+  <li><a href="/services">General Contracting</a></li>
+  <li><a href="/services">Facilities Management</a></li>
+  <li><a href="/services">Electro Mechanical Services (MEP)</a></li>
+  <li><a href="/services">Interior Design & Fit-Out</a></li>
+  <li><a href="/services">ELV Systems</a></li>
+</ul>
+
           </div>
 
           {/* Social Media */}
@@ -1249,7 +1164,6 @@ function page() {
   </div>
 </footer>
 {/* Main Footer End */}
-
     </>
   )
 }

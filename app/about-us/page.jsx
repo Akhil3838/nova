@@ -224,29 +224,31 @@ function page() {
         {/* Section Title Start */}
         <div className="section-title section-title-center">
           <span className="section-sub-title wow fadeInUp">
-            About Our Construction
+            About Us
           </span>
 
           <h2
             className="text-effect"
             data-cursor="-opaque"
           >
-            Expert financial and business consulting built on
-            trust, precision,{" "}
-            <span className="about-us-title-img-1">
-              <img src="images/author-2.jpg" alt="" />
-              <img src="images/author-1.jpg" alt="" />
-              <img src="images/author-3.jpg" alt="" />
-            </span>{" "}
-            and{" "}
-            <span className="about-us-title-img-2">
-              <img
-                src="images/about-us-title-img-1.jpg"
-                alt=""
-              />
-            </span>{" "}
-            proven results
+            Nova Phoenix
           </h2>
+          <p className="wow fadeInUp" data-wow-delay="0.2s">
+            Nova Phoenix General Contracting and Maintenance Company is a leading and
+            reputable construction and facility management organization with a strong
+            commitment to excellence, professionalism, and customer satisfaction. Nova
+            Phoenix has established itself as a highly specialized construction,
+            maintenance, interior designing, civil and MEP works. Our unparalleled
+            engineering skills, professionalism and strong commitment to each and every
+            project have made us the preferred choice for both government and private
+            sectors. Nova Phoenix believes in meeting the highest standards of quality
+            services. As a quality company, we are committed to complying with the
+            industry standards, codes and practice. We work in partnership with
+            consultants, building contractors, interior contractors, building facility
+            team, site in charges and clients to guarantee a planned and systematic
+            installation, inspection, testing, commissioning and maintenance of civil
+            &amp; MEP services.
+          </p>
         </div>
         {/* Section Title End */}
       </div>
@@ -293,10 +295,10 @@ function page() {
               <li>Dollars in Investments Managed</li>
             </ul>
             <h2>
-              $<span className="counter">10</span>M+
+              ₹<span className="counter">10</span>M+
             </h2>
             <p>
-              Over $10M in investments carefully managed to
+              Over ₹10M in investments carefully managed to
               maximize growth & secure our clients.
             </p>
           </div>
@@ -1945,24 +1947,25 @@ function page() {
           <div className="footer-links-metal">
             <h3>Quick Links</h3>
             <ul>
-              <li><a href="index-3.html">Home</a></li>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="blog.html">Our Blogs</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about-us">About Us</a></li>
+              <li><a href="/services">Services</a></li>
+              <li><a href="/blog">Our Blogs</a></li>
+              <li><a href="/contact-us">Contact Us</a></li>
             </ul>
           </div>
 
           {/* Our Services */}
           <div className="footer-links-metal">
             <h3>Our Services</h3>
-            <ul>
-              <li><a href="service-single.html">Financial Planning</a></li>
-              <li><a href="service-single.html">Wealth Management</a></li>
-              <li><a href="service-single.html">Investment Strategies</a></li>
-              <li><a href="service-single.html">Risk Management</a></li>
-              <li><a href="service-single.html">Digital Marketing</a></li>
-            </ul>
+           <ul>
+  <li><a href="/services">General Contracting</a></li>
+  <li><a href="/services">Facilities Management</a></li>
+  <li><a href="/services">Electro Mechanical Services (MEP)</a></li>
+  <li><a href="/services">Interior Design & Fit-Out</a></li>
+  <li><a href="/services">ELV Systems</a></li>
+</ul>
+
           </div>
 
           {/* Social Media */}
