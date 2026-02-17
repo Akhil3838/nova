@@ -163,7 +163,7 @@ export default function Home() {
 
             <div className="hero-image-metal">
               <figure className="image-anime">
-                <img src="images/hero-image-1-metal.jpg" alt="" />
+                <img src="images/h1.jpg" alt=""/>
               </figure>
             </div>
 
@@ -227,7 +227,7 @@ export default function Home() {
           >
             <div className="hero-image-metal">
               <figure className="image-anime">
-                <img src="images/hero-image-2-metal.jpg" alt="" />
+                <img src="images/h2.jpg" alt="" />
               </figure>
             </div>
 
@@ -265,7 +265,7 @@ export default function Home() {
 
           <div className="about-us-image-metal">
             <figure className="image-anime reveal">
-              <img src="images/about-us-image-metal.jpg" alt="" />
+              <img src="images/about1.avif" alt="" />
             </figure>
           </div>
 
@@ -731,7 +731,7 @@ export default function Home() {
           <div className="why-choose-image-metal">
             <figure className="image-anime">
               <img
-                src="images/why-choose-image-metal.jpg"
+                src="images/why-choose1.jpg"
                 alt=""
               />
             </figure>

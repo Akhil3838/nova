@@ -21,8 +21,8 @@ function page() {
     <nav className="navbar navbar-expand-lg">
       <div className="container">
         {/* Logo Start */}
-        <a className="navbar-brand" href="index.html">
-          <img src="images/logo.svg" alt="Logo" />
+        <a className="navbar-brand" href="/">
+          <img src="/images/logo.svg" alt="Nova Phoenix" />
         </a>
         {/* Logo End */}
 
@@ -198,7 +198,7 @@ function page() {
           <nav className="wow fadeInUp">
             <ol className="breadcrumb">
               <li className="breadcrumb-item">
-                <a href="index.html">home</a>
+                <a href="/">home</a>
               </li>
               <li
                 className="breadcrumb-item active"
@@ -235,13 +235,13 @@ function page() {
           <div className="service-item-body">
             <div className="service-item-content">
               <h2>
-                <a href="service-single.html">General Contracting</a>
+                <a href="/services/general-contracting">General Contracting</a>
               </h2>
               <p>End-to-end construction solutions delivered with quality and precision.</p>
             </div>
 
             <div className="service-item-btn">
-              <a href="service-single.html" className="readmore-btn">Learn More</a>
+              <a href="/services/general-contracting" className="readmore-btn">Learn More</a>
             </div>
           </div>
         </div>
@@ -261,13 +261,13 @@ function page() {
           <div className="service-item-body">
             <div className="service-item-content">
               <h2>
-                <a href="service-single.html">Facilities Management</a>
+                <a href="/services/facilities-management">Facilities Management</a>
               </h2>
               <p>Efficient maintenance and operational services for buildings and assets.</p>
             </div>
 
             <div className="service-item-btn">
-              <a href="service-single.html" className="readmore-btn">Learn More</a>
+              <a href="/services/facilities-management" className="readmore-btn">Learn More</a>
             </div>
           </div>
         </div>
@@ -287,13 +287,13 @@ function page() {
           <div className="service-item-body">
             <div className="service-item-content">
               <h2>
-                <a href="service-single.html">Electro Mechanical Services (MEP)</a>
+                <a href="/services/electro-mechanical-mep">Electro Mechanical Services (MEP)</a>
               </h2>
               <p>Expert solutions for electrical, mechanical, and plumbing systems.</p>
             </div>
 
             <div className="service-item-btn">
-              <a href="service-single.html" className="readmore-btn">Learn More</a>
+              <a href="/services/electro-mechanical-mep" className="readmore-btn">Learn More</a>
             </div>
           </div>
         </div>
@@ -313,13 +313,13 @@ function page() {
           <div className="service-item-body">
             <div className="service-item-content">
               <h2>
-                <a href="service-single.html">Interior Design & Fit Out</a>
+                <a href="/services/interior-design-fit-out">Interior Design & Fit Out</a>
               </h2>
               <p>Complete interior solutions from concept to flawless execution.</p>
             </div>
 
             <div className="service-item-btn">
-              <a href="service-single.html" className="readmore-btn">Learn More</a>
+              <a href="/services/interior-design-fit-out" className="readmore-btn">Learn More</a>
             </div>
           </div>
         </div>
@@ -339,13 +339,36 @@ function page() {
           <div className="service-item-body">
             <div className="service-item-content">
               <h2>
-                <a href="service-single.html">ELV Systems</a>
+                <a href="/services/elv-systems">ELV Systems</a>
               </h2>
               <p>Advanced low-voltage systems including security and automation.</p>
             </div>
 
             <div className="service-item-btn">
-              <a href="service-single.html" className="readmore-btn">Learn More</a>
+              <a href="/services/elv-systems" className="readmore-btn">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Office Automation Solutions */}
+      <div className="col-xl-3 col-md-6">
+        <div className="service-item wow fadeInUp" data-wow-delay="1s">
+          <div className="service-item-bg-shape">
+            <img src="images/service-item-bg-shape-1.png" alt="" />
+          </div>
+          <div className="icon-box">
+            <img src="images/icon-service-item-5.svg" alt="" />
+          </div>
+          <div className="service-item-body">
+            <div className="service-item-content">
+              <h2>
+                <a href="/services/office-automation-solutions">Office Automation Solutions</a>
+              </h2>
+              <p>Smart building and workplace technology for efficiency and comfort.</p>
+            </div>
+            <div className="service-item-btn">
+              <a href="/services/office-automation-solutions" className="readmore-btn">Learn More</a>
             </div>
           </div>
         </div>
@@ -1107,14 +1130,14 @@ function page() {
           {/* Our Services */}
           <div className="footer-links-metal">
             <h3>Our Services</h3>
-           <ul>
-  <li><a href="/services">General Contracting</a></li>
-  <li><a href="/services">Facilities Management</a></li>
-  <li><a href="/services">Electro Mechanical Services (MEP)</a></li>
-  <li><a href="/services">Interior Design & Fit-Out</a></li>
-  <li><a href="/services">ELV Systems</a></li>
-</ul>
-
+            <ul>
+              <li><a href="/services/general-contracting">General Contracting</a></li>
+              <li><a href="/services/facilities-management">Facilities Management</a></li>
+              <li><a href="/services/electro-mechanical-mep">Electro Mechanical (MEP)</a></li>
+              <li><a href="/services/interior-design-fit-out">Interior Design & Fit Out</a></li>
+              <li><a href="/services/office-automation-solutions">Office Automation</a></li>
+              <li><a href="/services/elv-systems">ELV Systems</a></li>
+            </ul>
           </div>
 
           {/* Social Media */}

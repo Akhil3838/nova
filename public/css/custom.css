@@ -3779,7 +3779,7 @@ header.main-header .header-sticky.active{
 .service-entry ul li::before{
 	content: '\f058';
     position: absolute;
-    font-family: 'Font Awesome 7 Free';
+    font-family: 'Font Awesome 6 Free';
     font-size: 18px;
     font-weight: 900;
 	background: linear-gradient(90deg, var(--accent-color) 0%, var(--accent-secondary-color) 100%);
@@ -9618,7 +9618,7 @@ header.main-header .header-sticky.active{
 
 .our-story-metal{
 	position: relative;
-	background: url('../images/our-story-bg-metal.jpg') no-repeat;
+	background: url('https://img.freepik.com/free-photo/construction-plans-with-yellow-helmet-drawing-tools-bluep_1232-2939.jpg?t=st=1771240149~exp=1771243749~hmac=6337be1060aee97d5bc8bd90b52638f299651db5f8d8e58ca0c2516d3363d93a&w=1480') no-repeat;
 	background-position: center center;
 	background-size: cover;
 	align-content: end;
