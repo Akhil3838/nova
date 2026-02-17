@@ -5,7 +5,7 @@ export const metadata = {
   title: "Nova Phoenix",
   description: "General Contracting and Maintenance Company",
   icons: {
-    icon: "/images/favicon.png",
+    icon: "/images/icon1.png",
   },
 };
 
