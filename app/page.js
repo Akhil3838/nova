@@ -6,14 +6,14 @@ export default function Home() {
     <>
 
     {/* Preloader Start */}
-<div className="preloader">
+{/* <div className="preloader">
   <div className="loading-container">
     <div className="loading"></div>
     <div id="loading-icon">
       <img src="/images/loader.svg" alt="Loading" />
     </div>
   </div>
-</div>
+</div> */}
 {/* Preloader End */}
 
 {/* Header Start */}
@@ -23,8 +23,8 @@ export default function Home() {
       <div className="container">
 
         {/* Logo Start */}
-        <a className="navbar-brand" href="index.html">
-          <img src="images/logo-white.svg" alt="Logo" />
+        <a className="navbar-brand" href="/">
+          <img src="images/logo1.png" alt="Logo" />
         </a>
         {/* Logo End */}
 
@@ -884,7 +884,7 @@ export default function Home() {
               >
                 <figure>
                   <img
-                    src="images/case-study-image-1.jpg"
+                    src="images/case1.jpg"
                     alt=""
                   />
                 </figure>
@@ -923,7 +923,7 @@ export default function Home() {
               >
                 <figure>
                   <img
-                    src="images/case-study-image-2.jpg"
+                    src="images/case2.jpg"
                     alt=""
                   />
                 </figure>
@@ -962,7 +962,7 @@ export default function Home() {
               >
                 <figure>
                   <img
-                    src="images/case-study-image-3.jpg"
+                    src="https://img.freepik.com/free-photo/problem-solving-concept-with-kids-wearing-helmets_23-2149908702.jpg?t=st=1771312747~exp=1771316347~hmac=eb7643cf4372483a54b03284e734f7412193c20773086401a7bf1bef62e184db&w=1480"
                     alt=""
                   />
                 </figure>
@@ -2249,7 +2249,7 @@ export default function Home() {
         <div className="about-footer-metal">
           {/* Footer Logo Start */}
           <div className="footer-logo-metal">
-            <img src="images/footer-logo.svg" alt="" />
+          <img src="images/logo1.png" alt="Logo" />
           </div>
           {/* Footer Logo End */}
 
@@ -2326,17 +2326,17 @@ export default function Home() {
             <ul>
               <li>
                 <b>Phone:</b>{" "}
-                <a href="tel:+123456798">+(123) 456-798</a>
+                <a href="tel:+123456798">+9976455554</a>
               </li>
               <li>
                 <b>Email:</b>{" "}
-                <a href="mailto:info@domainname.com">
-                  info@domainname.com
+                <a href="#">
+                  nova@.com
                 </a>
               </li>
               <li>
-                <b>Address:</b> 123 Business Avenue, New Park,
-                New York, NY 10001
+                <b>Address:</b> 123 Main Street, kakkanad,
+                kochi, 66461
               </li>
             </ul>
           </div>

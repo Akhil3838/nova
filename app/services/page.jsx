@@ -4,14 +4,14 @@ function page() {
   return (
     <>
             {/* Preloader Start */}
-<div className="preloader">
+{/* <div className="preloader">
   <div className="loading-container">
     <div className="loading"></div>
     <div id="loading-icon">
       <img src="/images/loader.svg" alt="Loading" />
     </div>
   </div>
-</div>
+</div> */}
 {/* Preloader End */}
 
 
@@ -22,7 +22,7 @@ function page() {
       <div className="container">
         {/* Logo Start */}
         <a className="navbar-brand" href="/">
-          <img src="/images/logo.svg" alt="Nova Phoenix" />
+          <img src="images/logo1.png" alt="Logo" />
         </a>
         {/* Logo End */}
 
@@ -195,19 +195,19 @@ function page() {
              Our services
           </h1>
 
-          <nav className="wow fadeInUp">
+          {/* <nav className="wow fadeInUp">
             <ol className="breadcrumb">
               <li className="breadcrumb-item">
                 <a href="/">home</a>
               </li>
               <li
-                className="breadcrumb-item active"
-                aria-current="page"
+                className="breadcrumb "
+                // aria-current="/"
               >
                 Our services
               </li>
             </ol>
-          </nav>
+          </nav> */}
         </div>
         {/* Page Header Box End */}
       </div>
@@ -1081,7 +1081,7 @@ function page() {
         <div className="about-footer-metal">
           {/* Footer Logo Start */}
           <div className="footer-logo-metal">
-            <img src="images/footer-logo.svg" alt="" />
+          <img src="images/logo1.png" alt="Logo" />
           </div>
           {/* Footer Logo End */}
 
@@ -1130,14 +1130,14 @@ function page() {
           {/* Our Services */}
           <div className="footer-links-metal">
             <h3>Our Services</h3>
-            <ul>
-              <li><a href="/services/general-contracting">General Contracting</a></li>
-              <li><a href="/services/facilities-management">Facilities Management</a></li>
-              <li><a href="/services/electro-mechanical-mep">Electro Mechanical (MEP)</a></li>
-              <li><a href="/services/interior-design-fit-out">Interior Design & Fit Out</a></li>
-              <li><a href="/services/office-automation-solutions">Office Automation</a></li>
-              <li><a href="/services/elv-systems">ELV Systems</a></li>
-            </ul>
+           <ul>
+  <li><a href="/services">General Contracting</a></li>
+  <li><a href="/services">Facilities Management</a></li>
+  <li><a href="/services">Electro Mechanical Services (MEP)</a></li>
+  <li><a href="/services">Interior Design & Fit-Out</a></li>
+  <li><a href="/services">ELV Systems</a></li>
+</ul>
+
           </div>
 
           {/* Social Media */}
@@ -1158,17 +1158,17 @@ function page() {
             <ul>
               <li>
                 <b>Phone:</b>{" "}
-                <a href="tel:+123456798">+(123) 456-798</a>
+                <a href="tel:+123456798">+9976455554</a>
               </li>
               <li>
                 <b>Email:</b>{" "}
-                <a href="mailto:info@domainname.com">
-                  info@domainname.com
+                <a href="#">
+                  nova@.com
                 </a>
               </li>
               <li>
-                <b>Address:</b> 123 Business Avenue, New Park,
-                New York, NY 10001
+                <b>Address:</b> 123 Main Street, kakkanad,
+                kochi, 66461
               </li>
             </ul>
           </div>

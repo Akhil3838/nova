@@ -5,14 +5,14 @@ function page() {
     <>
 
             {/* Preloader Start */}
-<div className="preloader">
+{/* <div className="preloader">
   <div className="loading-container">
     <div className="loading"></div>
     <div id="loading-icon">
       <img src="/images/loader.svg" alt="Loading" />
     </div>
   </div>
-</div>
+</div> */}
 {/* Preloader End */}
 
 
@@ -22,8 +22,8 @@ function page() {
     <nav className="navbar navbar-expand-lg">
       <div className="container">
         {/* Logo Start */}
-        <a className="navbar-brand" href="index.html">
-          <img src="images/logo.svg" alt="Logo" />
+        <a className="navbar-brand" href="/">
+          <img src="images/logo1.png" alt="Logo" />
         </a>
         {/* Logo End */}
 
@@ -196,7 +196,7 @@ function page() {
             Contact us
           </h1>
 
-          <nav className="wow fadeInUp">
+          {/* <nav className="wow fadeInUp">
             <ol className="breadcrumb">
               <li className="breadcrumb-item">
                 <a href="index.html">home</a>
@@ -208,7 +208,7 @@ function page() {
                 Contact us
               </li>
             </ol>
-          </nav>
+          </nav> */}
         </div>
         {/* Page Header Box End */}
       </div>
@@ -439,7 +439,7 @@ function page() {
         <div className="about-footer-metal">
           {/* Footer Logo Start */}
           <div className="footer-logo-metal">
-            <img src="images/footer-logo.svg" alt="" />
+          <img src="images/logo1.png" alt="Logo" />
           </div>
           {/* Footer Logo End */}
 
@@ -516,17 +516,17 @@ function page() {
             <ul>
               <li>
                 <b>Phone:</b>{" "}
-                <a href="tel:+123456798">+(123) 456-798</a>
+                <a href="tel:+123456798">+9976455554</a>
               </li>
               <li>
                 <b>Email:</b>{" "}
-                <a href="mailto:info@domainname.com">
-                  info@domainname.com
+                <a href="#">
+                  nova@.com
                 </a>
               </li>
               <li>
-                <b>Address:</b> 123 Business Avenue, New Park,
-                New York, NY 10001
+                <b>Address:</b> 123 Main Street, kakkanad,
+                kochi, 66461
               </li>
             </ul>
           </div>
