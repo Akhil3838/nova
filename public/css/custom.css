@@ -3388,7 +3388,7 @@ header.main-header .header-sticky.active{
 .expertise-content-list ul li::before{
 	content: '\f058';
     position: absolute;
-    font-family: 'Font Awesome 7 Free';
+    font-family: 'Font Awesome 6 Free';
     font-size: 18px;
     font-weight: 900;
     background: linear-gradient(90deg, var(--accent-color) 0%, var(--accent-secondary-color) 100%);
@@ -4327,7 +4327,7 @@ header.main-header .header-sticky.active{
 .case-study-entry ul li::before{
 	content: '\f058';
     position: absolute;
-    font-family: 'Font Awesome 7 Free';
+    font-family: 'Font Awesome 6 Free';
     font-size: 18px;
     font-weight: 900;
 	background: linear-gradient(90deg, var(--accent-color) 0%, var(--accent-secondary-color) 100%);

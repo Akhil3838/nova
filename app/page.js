@@ -479,14 +479,14 @@ export default function Home() {
             </div>
             <div className="service-item-content-metal">
               <h2>
-                <a href="service-single.html">General Contracting</a>
+                <a href="/services/general-contracting">General Contracting</a>
               </h2>
               <p>Reliable end-to-end construction services delivered with precision.</p>
             </div>
           </div>
 
           <div className="service-item-btn-metal">
-            <a href="service-single.html" className="readmore-btn">
+            <a href="/services/general-contracting" className="readmore-btn">
               Read More
             </a>
           </div>
@@ -505,14 +505,14 @@ export default function Home() {
             </div>
             <div className="service-item-content-metal">
               <h2>
-                <a href="service-single.html">Facilities Management</a>
+                <a href="/services/facilities-management">Facilities Management</a>
               </h2>
               <p>Efficient maintenance solutions ensuring safety and performance.</p>
             </div>
           </div>
 
           <div className="service-item-btn-metal">
-            <a href="service-single.html" className="readmore-btn">
+            <a href="/services/facilities-management" className="readmore-btn">
               Read More
             </a>
           </div>
@@ -531,14 +531,14 @@ export default function Home() {
             </div>
             <div className="service-item-content-metal">
               <h2>
-                <a href="service-single.html">MEP Services</a>
+                <a href="/services/electro-mechanical-mep">MEP Services</a>
               </h2>
               <p>Expert electro-mechanical & plumbing solutions for all projects.</p>
             </div>
           </div>
 
           <div className="service-item-btn-metal">
-            <a href="service-single.html" className="readmore-btn">
+            <a href="/services/electro-mechanical-mep" className="readmore-btn">
               Read More
             </a>
           </div>
@@ -557,14 +557,14 @@ export default function Home() {
             </div>
             <div className="service-item-content-metal">
               <h2>
-                <a href="service-single.html">Interior Design & Fit-Out</a>
+                <a href="/services/interior-design-fit-out">Interior Design & Fit-Out</a>
               </h2>
               <p>Complete interior solutions tailored to functional elegance.</p>
             </div>
           </div>
 
           <div className="service-item-btn-metal">
-            <a href="service-single.html" className="readmore-btn">
+            <a href="/services/interior-design-fit-out" className="readmore-btn">
               Read More
             </a>
           </div>
@@ -1632,211 +1632,6 @@ export default function Home() {
 </div>
 {/* Our Testimonial Section End */}
 
-{/* Our Team Section Start */}
-<div className="our-team-metal">
-  <div className="container">
-    <div className="row section-row">
-      <div className="col-lg-12">
-        {/* Section Title Start */}
-        <div className="section-title section-title-center">
-          <span className="section-sub-title wow fadeInUp">
-            Our Expert Team
-          </span>
-          <h2
-            className="text-anime-style-3"
-            data-cursor="-opaque"
-          >
-            Trusted Advisor with Experience
-          </h2>
-          <p
-            className="wow fadeInUp"
-            data-wow-delay="0.2s"
-          >
-            We provide strategic guidance, personalized solutions,
-            and insights you can rely on to navigate complex challenges
-            with confidence and clarity.
-          </p>
-        </div>
-        {/* Section Title End */}
-      </div>
-    </div>
-
-    <div className="row">
-      <div className="col-xl-3 col-md-6">
-        {/* Team Item Start */}
-        <div className="team-item-metal wow fadeInUp">
-          {/* Team Item Header Start */}
-          <div className="team-item-header-metal">
-            {/* Team Item Image Start */}
-            <div className="team-item-image-metal">
-              <a
-                href="team-single.html"
-                data-cursor-text="View"
-              >
-                <figure>
-                  <img src="images/team-1.jpg" alt="" />
-                </figure>
-              </a>
-            </div>
-            {/* Team Item Image End */}
-
-            {/* Team Social List Start */}
-            <div className="team-social-list-metal">
-              <ul>
-                <li>
-                  <a href="#">
-                    <i className="fa-brands fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa-brands fa-dribbble"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa-brands fa-instagram"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa-brands fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            {/* Team Social List End */}
-          </div>
-          {/* Team Item Header End */}
-
-          {/* Team Item Content Start */}
-          <div className="team-item-content-metal">
-            <h2>
-              <a href="team-single.html">Aarav Mehta</a>
-            </h2>
-            <p>Senior Financial Advisor</p>
-          </div>
-          {/* Team Item Content End */}
-        </div>
-        {/* Team Item End */}
-      </div>
-
-      <div className="col-xl-3 col-md-6">
-        <div
-          className="team-item-metal wow fadeInUp"
-          data-wow-delay="0.2s"
-        >
-          <div className="team-item-header-metal">
-            <div className="team-item-image-metal">
-              <a href="team-single.html" data-cursor-text="View">
-                <figure>
-                  <img src="images/team-2.jpg" alt="" />
-                </figure>
-              </a>
-            </div>
-
-            <div className="team-social-list-metal">
-              <ul>
-                <li><a href="#"><i className="fa-brands fa-facebook-f"></i></a></li>
-                <li><a href="#"><i className="fa-brands fa-dribbble"></i></a></li>
-                <li><a href="#"><i className="fa-brands fa-instagram"></i></a></li>
-                <li><a href="#"><i className="fa-brands fa-linkedin-in"></i></a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="team-item-content-metal">
-            <h2>
-              <a href="team-single.html">David Kapoor</a>
-            </h2>
-            <p>Business Strategy Consultant</p>
-          </div>
-        </div>
-      </div>
-
-      <div className="col-xl-3 col-md-6">
-        <div
-          className="team-item-metal wow fadeInUp"
-          data-wow-delay="0.4s"
-        >
-          <div className="team-item-header-metal">
-            <div className="team-item-image-metal">
-              <a href="team-single.html" data-cursor-text="View">
-                <figure>
-                  <img src="images/team-3.jpg" alt="" />
-                </figure>
-              </a>
-            </div>
-
-            <div className="team-social-list-metal">
-              <ul>
-                <li><a href="#"><i className="fa-brands fa-facebook-f"></i></a></li>
-                <li><a href="#"><i className="fa-brands fa-dribbble"></i></a></li>
-                <li><a href="#"><i className="fa-brands fa-instagram"></i></a></li>
-                <li><a href="#"><i className="fa-brands fa-linkedin-in"></i></a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="team-item-content-metal">
-            <h2>
-              <a href="team-single.html">Rohan Desai</a>
-            </h2>
-            <p>Investment Portfolio Specialist</p>
-          </div>
-        </div>
-      </div>
-
-      <div className="col-xl-3 col-md-6">
-        <div
-          className="team-item-metal wow fadeInUp"
-          data-wow-delay="0.6s"
-        >
-          <div className="team-item-header-metal">
-            <div className="team-item-image-metal">
-              <a href="team-single.html" data-cursor-text="View">
-                <figure>
-                  <img src="images/team-4.jpg" alt="" />
-                </figure>
-              </a>
-            </div>
-
-            <div className="team-social-list-metal">
-              <ul>
-                <li><a href="#"><i className="fa-brands fa-facebook-f"></i></a></li>
-                <li><a href="#"><i className="fa-brands fa-dribbble"></i></a></li>
-                <li><a href="#"><i className="fa-brands fa-instagram"></i></a></li>
-                <li><a href="#"><i className="fa-brands fa-linkedin-in"></i></a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="team-item-content-metal">
-            <h2>
-              <a href="team-single.html">Darrell Malhotra</a>
-            </h2>
-            <p>Market Research Analyst</p>
-          </div>
-        </div>
-      </div>
-
-      <div className="col-lg-12">
-        {/* Section Footer Text Start */}
-        <div
-          className="section-footer-text wow fadeInUp"
-          data-wow-delay="0.4s"
-        >
-          <p>
-            <span>Free</span> Work with a team that drives real results.{" "}
-            <a href="contact.html">Get Your Free Consultation</a>
-          </p>
-        </div>
-        {/* Section Footer Text End */}
-      </div>
-    </div>
-  </div>
-</div>
-{/* Our Team Section End */}
 
 {/* Our FAQs Section Start */}
 <div className="our-faqs-metal">
