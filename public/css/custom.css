@@ -1659,7 +1659,7 @@ header.main-header .header-sticky.active{
 .why-choose-list ul li::before{
 	content: '\f058';
     position: absolute;
-    font-family: 'Font Awesome 7 Free';
+    font-family: 'Font Awesome 6 Free';
     font-size: 18px;
     font-weight: 900;
     background: linear-gradient(90deg, var(--accent-color) 0%, var(--accent-secondary-color) 100%);
@@ -3106,7 +3106,7 @@ header.main-header .header-sticky.active{
 
 .page-header{
 	position: relative;
-	background: url('../images/page-header-bg.jpg') no-repeat;
+	background: url('../images/hero2.jpg') no-repeat;
 	background-position: top center;
 	background-size: cover;
 	padding: 300px 0 165px;
@@ -3665,7 +3665,7 @@ header.main-header .header-sticky.active{
 	flex-direction: column;
 	justify-content: space-between;
 	gap: 30px;
-	background: url('../images/sidebar-cta-image.jpg') no-repeat center center;
+	background: url('../images/about1.avif') no-repeat center center;
 	background-size: cover;
 	border-radius: 4px;
 	padding: 40px;

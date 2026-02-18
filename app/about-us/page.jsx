@@ -532,7 +532,7 @@ function page() {
           <div className="approach-image">
             <figure>
               <img
-                src="images/approach-image.jpg"
+                src="images/approach1.jpg"
                 alt=""
               />
             </figure>
@@ -771,7 +771,7 @@ function page() {
           <div className="why-choose-us-image">
             <figure className="image-anime reveal">
               <img
-                src="images/why-choose-us-image.jpg"
+                src="images/why-choose2.jpg"
                 alt=""
               />
             </figure>
@@ -1439,7 +1439,7 @@ function page() {
 
     <video autoPlay muted loop id="testimonialsvideo">
       <source
-        src="https://demo.awaikenthemes.com/assets/videos/optive-testimonial-bg.mp4"
+        src="https://videos.pexels.com/video-files/6474141/6474141-uhd_2560_1440_25fps.mp4"
         type="video/mp4"
       />
     </video>
@@ -1822,7 +1822,7 @@ function page() {
         <div className="faq-image-box">
           <div className="faq-image">
             <figure className="image-anime reveal">
-              <img src="images/faq-image.jpg" alt="" />
+              <img src="images/why-choose1.jpg" alt="" />
             </figure>
           </div>
 
@@ -1831,7 +1831,7 @@ function page() {
               <div className="faq-cta-image">
                 <figure>
                   <img
-                    src="images/faq-cta-box-image.jpg"
+                    src="images/why-choose2.jpg"
                     alt=""
                   />
                 </figure>

@@ -227,7 +227,7 @@ function page() {
           <div className="post-featured-image">
             <a href="blog-single.html" data-cursor-text="View">
               <figure className="image-anime">
-                <img src="images/post-1.jpg" alt="" />
+                <img src="images/blog1.jpg" alt="" />
               </figure>
             </a>
             <div className="post-item-tags">
@@ -257,7 +257,7 @@ function page() {
           <div className="post-featured-image">
             <a href="blog-single.html" data-cursor-text="View">
               <figure className="image-anime">
-                <img src="images/post-2.jpg" alt="" />
+                <img src="images/blog2.jpg" alt="" />
               </figure>
             </a>
             <div className="post-item-tags">
@@ -287,7 +287,7 @@ function page() {
           <div className="post-featured-image">
             <a href="blog-single.html" data-cursor-text="View">
               <figure className="image-anime">
-                <img src="images/post-3.jpg" alt="" />
+                <img src="images/blog3.jpg" alt="" />
               </figure>
             </a>
             <div className="post-item-tags">

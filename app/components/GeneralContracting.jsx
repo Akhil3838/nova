@@ -14,11 +14,11 @@ function GeneralContracting() {
           <div className="page-category-list wow fadeInUp">
             <h2 className="page-category-list-title">Explore Our Services</h2>
             <ul>
-              <li><a href="#">General Contracting</a></li>
-              <li><a href="#">Property Maintenance</a></li>
-              <li><a href="#">Renovations & Alterations</a></li>
-              <li><a href="#">Fit Out Works</a></li>
-              <li><a href="#">Construction Solutions</a></li>
+              <li><a href="/services/general-contracting">General Contracting</a></li>
+              <li><a href="/services/office-automation-solutions">Office Automation</a></li>
+              <li><a href="/services/facilities-management">Facilities Management</a></li>
+              <li><a href="/services/interior-design-fit-out">Interior Design & Fit Out</a></li>
+              <li><a href="/services/elv-system">Elv system</a></li>
             </ul>
           </div>
 
@@ -42,7 +42,7 @@ function GeneralContracting() {
 
           <div className="page-single-image">
             <figure className="image-anime reveal">
-              <img src="/images/service-single-image.jpg" alt="" />
+              <img src="/images/blog1.jpg" alt="" />
             </figure>
           </div>
 
@@ -92,10 +92,10 @@ function GeneralContracting() {
 
                 <div className="service-facility-image wow fadeInUp" data-wow-delay="0.2s">
                   <figure>
-                    <img src="/images/service-facility-image.jpg" alt="" />
+                    <img src="/images/blog2.jpg" alt="" />
                   </figure>
                   <div className="service-facility-circle">
-                    <a href="contact.html">
+                    <a href="/contact-us">
                       <img src="/images/get-in-touch-circle-transperant.svg" alt="" />
                     </a>
                   </div>
@@ -124,7 +124,7 @@ function GeneralContracting() {
 
                 <div className="service-benefit-item wow fadeInUp">
                   <div className="icon-box">
-                    <img src="/images/logo.svg" alt="" />
+                    <img src="/images/logo1.png" alt="" />
                   </div>
                   <div className="service-benefit-item-content">
                     <p>Why Choose Nova Phoenix</p>
@@ -134,7 +134,7 @@ function GeneralContracting() {
 
                 <div className="service-benefit-image wow fadeInUp" data-wow-delay="0.2s">
                   <figure className="image-anime">
-                    <img src="/images/service-benefit-image.jpg" alt="" />
+                    <img src="/images/why-choose1.jpg" alt="" />
                   </figure>
                 </div>
 
@@ -161,7 +161,7 @@ function GeneralContracting() {
                   <div className="satisfy-client-image"><figure className="image-anime"><img src="/images/author-1.jpg" alt="" /></figure></div>
                   <div className="satisfy-client-image add-more"><img src="images/icon-phone-white.svg" alt="" /></div>
                 </div>
-                <p>Let’s build something great together. <a href="contact.html">Request a Quote</a></p>
+                <p>Let’s build something great together. <a href="/contact-us">Request a Quote</a></p>
               </div>
 
             </div>

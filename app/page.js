@@ -1455,7 +1455,7 @@ export default function Home() {
           <div className="testimonial-image-metal">
             <figure className="image-anime">
               <img
-                src="images/testimonial-image-metal.jpg"
+                src="images/test1.jpg"
                 alt=""
               />
             </figure>
@@ -2116,7 +2116,7 @@ export default function Home() {
             >
               <figure className="image-anime">
                 <img
-                  src="images/post-1.jpg"
+                  src="images/blog1.jpg"
                   alt=""
                 />
               </figure>
@@ -2162,7 +2162,7 @@ export default function Home() {
           <div className="post-featured-image">
             <a href="blog-single.html" data-cursor-text="View">
               <figure className="image-anime">
-                <img src="images/post-2.jpg" alt="" />
+                <img src="images/blog2.jpg" alt="" />
               </figure>
             </a>
             <div className="post-item-tags">
@@ -2203,7 +2203,7 @@ export default function Home() {
           <div className="post-featured-image">
             <a href="blog-single.html" data-cursor-text="View">
               <figure className="image-anime">
-                <img src="images/post-3.jpg" alt="" />
+                <img src="images/blog3.jpg" alt="" />
               </figure>
             </a>
             <div className="post-item-tags">

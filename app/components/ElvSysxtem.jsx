@@ -15,11 +15,11 @@ function ElvSysxtem() {
           <div className="page-category-list wow fadeInUp">
             <h2 className="page-category-list-title">Explore Our Services</h2>
             <ul>
-              <li><a href="#">ELV Systems</a></li>
-              <li><a href="#">Office Automation Solutions</a></li>
-              <li><a href="#">Interior Design & Fit Out</a></li>
-              <li><a href="#">Electro Mechanical Services (MEP)</a></li>
-              <li><a href="#">General Contracting</a></li>
+             <li><a href="/services/general-contracting">General Contracting</a></li>
+              <li><a href="/services/office-automation-solutions">Office Automation</a></li>
+              <li><a href="/services/facilities-management">Facilities Management</a></li>
+              <li><a href="/services/interior-design-fit-out">Interior Design & Fit Out</a></li>
+              <li><a href="/services/elv-system">Elv system</a></li>
             </ul>
           </div>
 
@@ -44,7 +44,7 @@ function ElvSysxtem() {
 
           <div className="page-single-image">
             <figure className="image-anime reveal">
-              <img src="/images/service-single-image.jpg" alt="" />
+              <img src="/images/elv1.jpg" alt="" />
             </figure>
           </div>
 

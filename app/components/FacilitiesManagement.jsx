@@ -14,11 +14,11 @@ function FacilitiesManagement() {
           <div className="page-category-list wow fadeInUp">
             <h2 className="page-category-list-title">Explore Our Services</h2>
             <ul>
-              <li><a href="#">Facilities Management</a></li>
-              <li><a href="#">MEP Maintenance</a></li>
-              <li><a href="#">Civil Maintenance</a></li>
-              <li><a href="#">Housekeeping & Cleaning</a></li>
-              <li><a href="#">Landscaping Services</a></li>
+              <li><a href="/services/general-contracting">General Contracting</a></li>
+              <li><a href="/services/office-automation-solutions">Office Automation</a></li>
+              <li><a href="/services/facilities-management">Facilities Management</a></li>
+              <li><a href="/services/interior-design-fit-out">Interior Design & Fit Out</a></li>
+              <li><a href="/services/elv-system">Elv system</a></li>
             </ul>
           </div>
 
@@ -42,7 +42,7 @@ function FacilitiesManagement() {
 
           <div className="page-single-image">
             <figure className="image-anime reveal">
-              <img src="/images/service-single-image.jpg" alt="" />
+              <img src="/images/blog3.jpg" alt="" />
             </figure>
           </div>
 
@@ -92,7 +92,7 @@ function FacilitiesManagement() {
 
                 <div className="service-facility-image wow fadeInUp" data-wow-delay="0.2s">
                   <figure>
-                    <img src="/images/service-facility-image.jpg" alt="" />
+                    <img src="/images/why-choose1.jpg" alt="" />
                   </figure>
                 </div>
               </div>
