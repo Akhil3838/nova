@@ -57,9 +57,9 @@ export default function Home() {
                 <a className="nav-link" href="/services">Services</a>
               </li>
 
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="/blog">Blog</a>
-              </li>
+              </li> */}
 
               {/* <li className="nav-item submenu">
                 <a className="nav-link" href="#">Pages</a>
