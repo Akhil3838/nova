@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -1179,11 +1180,10 @@ export default function Home() {
 {/* Core Features Section End */}
 
 {/* Our Pricing Section Start */}
-<div className="our-pricing-metal">
+{/* <div className="our-pricing-metal">
   <div className="container">
     <div className="row section-row">
       <div className="col-lg-12">
-        {/* Section Title Start */}
         <div className="section-title section-title-center">
           <span className="section-sub-title wow fadeInUp">
             Our Pricing Plans
@@ -1203,34 +1203,25 @@ export default function Home() {
             of businesses at every stage of growth.
           </p>
         </div>
-        {/* Section Title End */}
       </div>
     </div>
 
     <div className="row">
       <div className="col-xl-4 col-md-6">
-        {/* Pricing Item Start */}
         <div className="pricing-item-metal wow fadeInUp">
-          {/* Pricing Item Header Start */}
           <div className="pricing-item-header-metal">
-            {/* Icon Box Start */}
             <div className="icon-box">
               <img
                 src="images/icon-pricing-item-1-metal.svg"
                 alt=""
               />
             </div>
-            {/* Icon Box End */}
 
-            {/* Pricing Item Title Start */}
             <div className="pricing-item-title-metal">
               <h2>Basic Advisory Plan</h2>
             </div>
-            {/* Pricing Item Title End */}
           </div>
-          {/* Pricing Item Header End */}
 
-          {/* Pricing Item Content Start */}
           <div className="pricing-item-content-metal">
             <p>
               Essential financial guidance and business strategy
@@ -1240,9 +1231,7 @@ export default function Home() {
               ₹199<sub>/Per Month</sub>
             </h3>
           </div>
-          {/* Pricing Item Content End */}
 
-          {/* Pricing Item List Start */}
           <div className="pricing-item-list-metal">
             <h3>Features:</h3>
             <ul>
@@ -1252,45 +1241,33 @@ export default function Home() {
               <li>Monthly one & one strategy sessions</li>
             </ul>
           </div>
-          {/* Pricing Item List End */}
 
-          {/* Pricing Item Button Start */}
           <div className="pricing-item-btn-metal">
             <a href="contact.html" className="btn-default">
               Choose Your Plan
             </a>
           </div>
-          {/* Pricing Item Button End */}
         </div>
-        {/* Pricing Item End */}
       </div>
 
       <div className="col-xl-4 col-md-6">
-        {/* Pricing Item Start */}
         <div
           className="pricing-item-metal wow fadeInUp"
           data-wow-delay="0.2s"
         >
-          {/* Pricing Item Header Start */}
           <div className="pricing-item-header-metal">
-            {/* Icon Box Start */}
             <div className="icon-box">
               <img
                 src="images/icon-pricing-item-2-metal.svg"
                 alt=""
               />
             </div>
-            {/* Icon Box End */}
 
-            {/* Pricing Item Title Start */}
             <div className="pricing-item-title-metal">
               <h2>Professional Growth Plan</h2>
             </div>
-            {/* Pricing Item Title End */}
           </div>
-          {/* Pricing Item Header End */}
 
-          {/* Pricing Item Content Start */}
           <div className="pricing-item-content-metal">
             <p>
               Essential financial guidance and business strategy
@@ -1300,9 +1277,6 @@ export default function Home() {
               ₹499<sub>/Per Month</sub>
             </h3>
           </div>
-          {/* Pricing Item Content End */}
-
-          {/* Pricing Item List Start */}
           <div className="pricing-item-list-metal">
             <h3>Features:</h3>
             <ul>
@@ -1312,45 +1286,31 @@ export default function Home() {
               <li>Monthly one & one strategy sessions</li>
             </ul>
           </div>
-          {/* Pricing Item List End */}
-
-          {/* Pricing Item Button Start */}
           <div className="pricing-item-btn-metal">
             <a href="contact.html" className="btn-default">
               Choose Your Plan
             </a>
           </div>
-          {/* Pricing Item Button End */}
         </div>
-        {/* Pricing Item End */}
       </div>
 
       <div className="col-xl-4 col-md-6">
-        {/* Pricing Item Start */}
         <div
           className="pricing-item-metal wow fadeInUp"
           data-wow-delay="0.4s"
         >
-          {/* Pricing Item Header Start */}
           <div className="pricing-item-header-metal">
-            {/* Icon Box Start */}
             <div className="icon-box">
               <img
                 src="images/icon-pricing-item-3-metal.svg"
                 alt=""
               />
             </div>
-            {/* Icon Box End */}
-
-            {/* Pricing Item Title Start */}
             <div className="pricing-item-title-metal">
               <h2>Premium Strategy Plan</h2>
             </div>
-            {/* Pricing Item Title End */}
           </div>
-          {/* Pricing Item Header End */}
 
-          {/* Pricing Item Content Start */}
           <div className="pricing-item-content-metal">
             <p>
               Essential financial guidance and business strategy
@@ -1360,9 +1320,7 @@ export default function Home() {
               ₹699<sub>/Per Month</sub>
             </h3>
           </div>
-          {/* Pricing Item Content End */}
 
-          {/* Pricing Item List Start */}
           <div className="pricing-item-list-metal">
             <h3>Features:</h3>
             <ul>
@@ -1372,21 +1330,16 @@ export default function Home() {
               <li>Monthly one & one strategy sessions</li>
             </ul>
           </div>
-          {/* Pricing Item List End */}
 
-          {/* Pricing Item Button Start */}
           <div className="pricing-item-btn-metal">
             <a href="contact.html" className="btn-default">
               Choose Your Plan
             </a>
           </div>
-          {/* Pricing Item Button End */}
         </div>
-        {/* Pricing Item End */}
       </div>
 
       <div className="col-lg-12">
-        {/* Pricing Benefits List Start */}
         <div
           className="pricing-benefit-list-metal wow fadeInUp"
           data-wow-delay="0.4s"
@@ -1406,19 +1359,17 @@ export default function Home() {
             </li>
           </ul>
         </div>
-        {/* Pricing Benefits List End */}
       </div>
     </div>
   </div>
-</div>
+</div> */}
 {/* Our Pricing Section End */}
 
 {/* Our Testimonial Section Start */}
-<div className="our-testimonials-metal dark-section">
+{/* <div className="our-testimonials-metal dark-section">
   <div className="container">
     <div className="row section-row align-items-center">
       <div className="col-xl-7">
-        {/* Section Title Start */}
         <div className="section-title">
           <span className="section-sub-title wow fadeInUp">
             Our Testimonials
@@ -1430,11 +1381,9 @@ export default function Home() {
             Client Experiences that Highlight our Proven Results
           </h2>
         </div>
-        {/* Section Title End */}
       </div>
 
       <div className="col-xl-5">
-        {/* Section Button Start */}
         <div className="section-btn">
           <a
             href="testimonials.html"
@@ -1443,15 +1392,12 @@ export default function Home() {
             View All Review
           </a>
         </div>
-        {/* Section Button End */}
       </div>
     </div>
 
     <div className="row">
       <div className="col-xl-5">
-        {/* Testimonial Image Box Start */}
         <div className="testimonial-image-box-metal wow fadeInUp">
-          {/* Testimonial Image Start */}
           <div className="testimonial-image-metal">
             <figure className="image-anime">
               <img
@@ -1460,11 +1406,8 @@ export default function Home() {
               />
             </figure>
           </div>
-          {/* Testimonial Image End */}
 
-          {/* Testimonials CTA Box Start */}
           <div className="testimonials-cta-box-metal">
-            {/* Testimonials CTA Header Start */}
             <div className="testimonials-cta-header-metal">
               <h2>4.9/5</h2>
               <span>
@@ -1475,9 +1418,7 @@ export default function Home() {
                 <i className="fa-solid fa-star"></i>
               </span>
             </div>
-            {/* Testimonials CTA Header End */}
 
-            {/* Satisfy Client Images Start */}
             <div className="satisfy-client-images">
               <div className="satisfy-client-image">
                 <figure className="image-anime">
@@ -1500,23 +1441,17 @@ export default function Home() {
                 </figure>
               </div>
             </div>
-            {/* Satisfy Client Images End */}
 
-            {/* Testimonials CTA Content Start */}
             <div className="testimonials-cta-content">
               <p>
                 <span>2k+</span> Happy Customer
               </p>
             </div>
-            {/* Testimonials CTA Content End */}
           </div>
-          {/* Testimonials CTA Box End */}
         </div>
-        {/* Testimonial Image Box End */}
       </div>
 
       <div className="col-xl-7">
-        {/* Testimonial Slider Start */}
         <div
           className="testimonial-slider-metal wow fadeInUp"
           data-wow-delay="0.2s"
@@ -1526,13 +1461,9 @@ export default function Home() {
               className="swiper-wrapper"
               data-cursor-text="Drag"
             >
-              {/* Testimonial Slide Start */}
               <div className="swiper-slide">
-                {/* Testimonial Item Start */}
                 <div className="testimonial-item-metal">
-                  {/* Testimonial Header Start */}
                   <div className="testimonial-item-header-metal">
-                    {/* Rating Start */}
                     <div className="testimonial-item-rating-metal">
                       <i className="fa-solid fa-star"></i>
                       <i className="fa-solid fa-star"></i>
@@ -1540,9 +1471,7 @@ export default function Home() {
                       <i className="fa-solid fa-star"></i>
                       <i className="fa-solid fa-star"></i>
                     </div>
-                    {/* Rating End */}
 
-                    {/* Content Start */}
                     <div className="testimonial-item-content-metal">
                       <p>
                         “Partnering with this advisory team was a
@@ -1553,11 +1482,8 @@ export default function Home() {
                         real expertise.”
                       </p>
                     </div>
-                    {/* Content End */}
                   </div>
-                  {/* Testimonial Header End */}
 
-                  {/* Footer Start */}
                   <div className="testimonial-item-author-metal">
                     <div className="testimonial-author-image-metal">
                       <figure>
@@ -1572,13 +1498,9 @@ export default function Home() {
                       <p>Market Research Analyst</p>
                     </div>
                   </div>
-                  {/* Footer End */}
                 </div>
-                {/* Testimonial Item End */}
               </div>
-              {/* Testimonial Slide End */}
 
-              {/* Testimonial Slide Start */}
               <div className="swiper-slide">
                 <div className="testimonial-item-metal">
                   <div className="testimonial-item-header-metal">
@@ -1616,7 +1538,6 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              {/* Testimonial Slide End */}
             </div>
 
             <div className="testimonial-btn-metal">
@@ -1625,22 +1546,17 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* Testimonial Slider End */}
       </div>
     </div>
   </div>
-</div>
-{/* Our Testimonial Section End */}
+</div> */}
 
 
-{/* Our FAQs Section Start */}
-<div className="our-faqs-metal">
+{/* <div className="our-faqs-metal">
   <div className="container">
     <div className="row">
       <div className="col-xl-6">
-        {/* Our FAQ Content Start */}
         <div className="our-faqs-content-metal">
-          {/* Section Title Start */}
           <div className="section-title">
             <span className="section-sub-title wow fadeInUp">
               Frequently Asked Questions
@@ -1660,9 +1576,7 @@ export default function Home() {
               decisions with ease.
             </p>
           </div>
-          {/* Section Title End */}
 
-          {/* Contact Us Circle Start */}
           <div
             className="contact-us-circle-metal wow fadeInUp"
             data-wow-delay="0.4s"
@@ -1674,18 +1588,14 @@ export default function Home() {
               />
             </a>
           </div>
-          {/* Contact Us Circle End */}
         </div>
-        {/* Our FAQ Content End */}
       </div>
 
       <div className="col-xl-6">
-        {/* FAQ Accordion Start */}
         <div
           className="faq-accordion-metal"
           id="accordion"
         >
-          {/* FAQ Item Start */}
           <div className="accordion-item wow fadeInUp">
             <h2 className="accordion-header" id="heading1">
               <button
@@ -1716,9 +1626,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          {/* FAQ Item End */}
 
-          {/* FAQ Item Start */}
           <div
             className="accordion-item wow fadeInUp"
             data-wow-delay="0.2s"
@@ -1752,9 +1660,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          {/* FAQ Item End */}
 
-          {/* FAQ Item Start */}
           <div
             className="accordion-item wow fadeInUp"
             data-wow-delay="0.4s"
@@ -1788,9 +1694,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-          {/* FAQ Item End */}
-
-          {/* FAQ Item Start */}
           <div
             className="accordion-item wow fadeInUp"
             data-wow-delay="0.6s"
@@ -1824,9 +1727,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-          {/* FAQ Item End */}
-
-          {/* FAQ Item Start */}
           <div
             className="accordion-item wow fadeInUp"
             data-wow-delay="0.8s"
@@ -1860,21 +1760,16 @@ export default function Home() {
               </div>
             </div>
           </div>
-          {/* FAQ Item End */}
         </div>
-        {/* FAQ Accordion End */}
       </div>
     </div>
   </div>
-</div>
-{/* Our FAQs Section End */}
+</div> */}
 
-{/* Our Blog Section Start */}
-<div className="our-blog">
+{/* <div className="our-blog">
   <div className="container">
     <div className="row section-row">
       <div className="col-lg-12">
-        {/* Section Title Start */}
         <div className="section-title section-title-center">
           <span className="section-sub-title wow fadeInUp">
             Latest Blogs
@@ -1895,15 +1790,12 @@ export default function Home() {
             help you make informed
           </p>
         </div>
-        {/* Section Title End */}
       </div>
     </div>
 
     <div className="row">
       <div className="col-xl-4 col-md-6">
-        {/* Post Item Start */}
         <div className="post-item wow fadeInUp">
-          {/* Post Featured Image Start */}
           <div className="post-featured-image">
             <a
               href="blog-single.html"
@@ -1922,9 +1814,7 @@ export default function Home() {
               </a>
             </div>
           </div>
-          {/* Post Featured Image End */}
 
-          {/* Post Item Body Start */}
           <div className="post-item-body">
             <div className="post-item-content">
               <h2>
@@ -1943,13 +1833,10 @@ export default function Home() {
               </a>
             </div>
           </div>
-          {/* Post Item Body End */}
         </div>
-        {/* Post Item End */}
       </div>
 
       <div className="col-xl-4 col-md-6">
-        {/* Post Item Start */}
         <div
           className="post-item wow fadeInUp"
           data-wow-delay="0.2s"
@@ -1986,11 +1873,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* Post Item End */}
       </div>
 
       <div className="col-xl-4 col-md-6">
-        {/* Post Item Start */}
         <div
           className="post-item wow fadeInUp"
           data-wow-delay="0.4s"
@@ -2027,128 +1912,15 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* Post Item End */}
       </div>
     </div>
   </div>
-</div>
+</div> */}
 {/* Our Blog Section End */}
 
 
 {/* Main Footer Start */}
-<footer className="main-footer-metal dark-section">
-  <div className="container">
-    <div className="row">
-      <div className="col-xl-4">
-        {/* About Footer Start */}
-        <div className="about-footer-metal">
-          {/* Footer Logo Start */}
-          <div className="footer-logo-metal">
-          <img src="images/logo1.png" alt="Logo" />
-          </div>
-          {/* Footer Logo End */}
-
-          {/* Footer Newsletter Form Start */}
-          <div className="footer-newsletter-form-metal">
-            <h2>Subscribe</h2>
-            <form id="newslettersForm" action="#" method="POST">
-              <div className="form-group">
-                <input
-                  type="email"
-                  name="mail"
-                  className="form-control"
-                  id="mail"
-                  placeholder="Email Address *"
-                  required
-                />
-                <button
-                  type="submit"
-                  className="newsletter-btn-metal"
-                >
-                  <i className="fa-solid fa-paper-plane"></i>
-                </button>
-              </div>
-            </form>
-          </div>
-          {/* Footer Newsletter Form End */}
-        </div>
-        {/* About Footer End */}
-      </div>
-
-      <div className="col-xl-8">
-        {/* Footer Links Box Start */}
-        <div className="footer-links-box-metal">
-          {/* Quick Links */}
-          <div className="footer-links-metal">
-            <h3>Quick Links</h3>
-            <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="/about-us">About Us</a></li>
-              <li><a href="/services">Services</a></li>
-              <li><a href="/blog">Our Blogs</a></li>
-              <li><a href="/contact-us">Contact Us</a></li>
-            </ul>
-          </div>
-
-          {/* Our Services */}
-          <div className="footer-links-metal">
-            <h3>Our Services</h3>
-           <ul>
-  <li><a href="/services">General Contracting</a></li>
-  <li><a href="/services">Facilities Management</a></li>
-  <li><a href="/services">Electro Mechanical Services (MEP)</a></li>
-  <li><a href="/services">Interior Design & Fit-Out</a></li>
-  <li><a href="/services">ELV Systems</a></li>
-</ul>
-
-          </div>
-
-          {/* Social Media */}
-          <div className="footer-links-metal">
-            <h3>Social Media</h3>
-            <ul>
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">LinkedIn</a></li>
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Dribbble</a></li>
-            </ul>
-          </div>
-
-          {/* Contact Information */}
-          <div className="footer-links-metal footer-contact-list-metal">
-            <h3>Contact Information</h3>
-            <ul>
-              <li>
-                <b>Phone:</b>{" "}
-                <a href="tel:+123456798">+9976455554</a>
-              </li>
-              <li>
-                <b>Email:</b>{" "}
-                <a href="#">
-                  nova@.com
-                </a>
-              </li>
-              <li>
-                <b>Address:</b> 123 Main Street, kakkanad,
-                kochi, 66461
-              </li>
-            </ul>
-          </div>
-        </div>
-        {/* Footer Links Box End */}
-      </div>
-
-      <div className="col-xl-12">
-        {/* Footer Copyright Start */}
-        <div className="footer-copyright-text-metal">
-          <p>Copyright © 2026 All Rights Reserved.</p>
-        </div>
-        {/* Footer Copyright End */}
-      </div>
-    </div>
-  </div>
-</footer>
+<Footer/>
 {/* Main Footer End */}
 
     </>

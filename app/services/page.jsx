@@ -1,4 +1,6 @@
 import React from 'react'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
 
 function page() {
   return (
@@ -16,169 +18,7 @@ function page() {
 
 
 {/* Header Start */}
-<header className="main-header">
-  <div className="header-sticky">
-    <nav className="navbar navbar-expand-lg">
-      <div className="container">
-        {/* Logo Start */}
-        <a className="navbar-brand" href="/">
-          <img src="images/logo1.png" alt="Logo" />
-        </a>
-        {/* Logo End */}
-
-        {/* Main Menu Start */}
-        <div className="collapse navbar-collapse main-menu">
-          <div className="nav-menu-wrapper">
-            <ul className="navbar-nav mr-auto" id="menu">
-              <li className="nav-item submenu">
-                <a className="nav-link" href="/">
-                  Home
-                </a>
-                {/* <ul>
-                  <li className="nav-item">
-                    <a className="nav-link" href="index-2.html">
-                      Home - Version 1
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="index-4.html">
-                      Home - Version 2
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="index-3.html">
-                      Home - Version 3
-                    </a>
-                  </li>
-                </ul> */}
-              </li>
-
-              <li className="nav-item">
-                <a className="nav-link" href="/about-us">
-                  About Us
-                </a>
-              </li>
-
-              <li className="nav-item">
-                <a className="nav-link" href="/services">
-                  Services
-                </a>
-              </li>
-
-              <li className="nav-item">
-                <a className="nav-link" href="/blog">
-                  Blog
-                </a>
-              </li>
-
-              {/* <li className="nav-item submenu">
-                <a className="nav-link" href="#">
-                  Pages
-                </a>
-                <ul>
-                  <li className="nav-item">
-                    <a className="nav-link" href="service-singl">
-                      Service Details
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="blog-single.html">
-                      Blog Details
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="case-study.html">
-                      Case Study
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link"
-                      href="case-study-single.html"
-                    >
-                      Case Study Details
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="team.html">
-                      Our Team
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link"
-                      href="team-single.html"
-                    >
-                      Team Details
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="pricing.html">
-                      Pricing Plan
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link"
-                      href="testimonials.html"
-                    >
-                      Testimonials
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link"
-                      href="image-gallery.html"
-                    >
-                      Image Gallery
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link"
-                      href="video-gallery.html"
-                    >
-                      Video Gallery
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="faqs.html">
-                      FAQs
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="404.html">
-                      404
-                    </a>
-                  </li>
-                </ul>
-              </li> */}
-
-              <li className="nav-item">
-                <a className="nav-link" href="/contact-us">
-                  Contact Us
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Header Button Start */}
-          <div className="header-btn">
-            <a href="/contact-us" className="btn-default">
-              Get Free Quote
-            </a>
-          </div>
-          {/* Header Button End */}
-        </div>
-        {/* Main Menu End */}
-
-        <div className="navbar-toggle"></div>
-      </div>
-    </nav>
-
-    <div className="responsive-menu"></div>
-  </div>
-</header>
+<Header/>
 {/* Header End */}
 
 {/* Page Header Section Start */}
@@ -653,26 +493,23 @@ function page() {
 {/* Why Choose Us Section End */}
 
 {/* Our Testimonials Section Start */}
+{/* --------------- OUR TESTIMONIALS SECTION START ---------------
+
 <div className="our-testimonials">
-  {/* Video Start */}
   <div className="our-testimonial-bg-video">
-    {/* Selfhosted Video Start */}
     <video autoPlay muted loop id="testimonialsvideo">
       <source
         src="https://videos.pexels.com/video-files/8820343/8820343-uhd_2732_1440_25fps.mp4"
         type="video/mp4"
       />
     </video>
-    {/* Selfhosted Video End */}
   </div>
-  {/* Video End */}
 
   <div className="container">
     <div className="row">
       <div className="col-lg-12">
-        {/* Testimonial Slider Box Start */}
         <div className="testimonial-slider-box">
-          {/* Section Title Start */}
+
           <div className="section-title">
             <span className="section-sub-title wow fadeInUp">
               Our Testimonials
@@ -685,13 +522,11 @@ function page() {
               they experience through our financial advisory and business.
             </p>
           </div>
-          {/* Section Title End */}
 
-          {/* Testimonial Slider Start */}
           <div className="testimonial-slider wow fadeInUp">
             <div className="swiper">
               <div className="swiper-wrapper" data-cursor-text="Drag">
-                {/* Testimonial Slide */}
+
                 <div className="swiper-slide">
                   <div className="testimonial-item">
                     <div className="testimonial-item-rating">
@@ -724,7 +559,6 @@ function page() {
                   </div>
                 </div>
 
-                {/* Testimonial Slide */}
                 <div className="swiper-slide">
                   <div className="testimonial-item">
                     <div className="testimonial-item-rating">
@@ -756,24 +590,25 @@ function page() {
                     </div>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
-          {/* Testimonial Slider End */}
+
         </div>
-        {/* Testimonial Slider Box End */}
       </div>
     </div>
   </div>
 </div>
+
+--------------- OUR TESTIMONIALS SECTION END --------------- */}
 {/* Our Testimonials Section End */}
 
 {/* Our Faqs Section Start */}
-<div className="our-faqs">
+{/* <div className="our-faqs">
   <div className="container">
     <div className="row section-row">
       <div className="col-lg-12">
-        {/* Section Title Start */}
         <div className="section-title section-title-center">
           <span className="section-sub-title wow fadeInUp">
             Frequently Asked Questions
@@ -786,15 +621,12 @@ function page() {
             addresses common questions about our services, process, and approach.
           </p>
         </div>
-        {/* Section Title End */}
       </div>
     </div>
 
     <div className="row">
       <div className="col-xl-6">
-        {/* FAQ Accordion Start */}
         <div className="faq-accordion" id="accordion">
-          {/* FAQ Item */}
           <div className="accordion-item wow fadeInUp">
             <h2 className="accordion-header" id="heading1">
               <button
@@ -825,7 +657,6 @@ function page() {
             </div>
           </div>
 
-          {/* FAQ Item */}
           <div
             className="accordion-item wow fadeInUp"
             data-wow-delay="0.2s"
@@ -859,7 +690,6 @@ function page() {
             </div>
           </div>
 
-          {/* FAQ Item */}
           <div
             className="accordion-item wow fadeInUp"
             data-wow-delay="0.4s"
@@ -893,7 +723,6 @@ function page() {
             </div>
           </div>
 
-          {/* FAQ Item */}
           <div
             className="accordion-item wow fadeInUp"
             data-wow-delay="0.6s"
@@ -927,7 +756,6 @@ function page() {
             </div>
           </div>
 
-          {/* FAQ Item */}
           <div
             className="accordion-item wow fadeInUp"
             data-wow-delay="0.8s"
@@ -961,7 +789,6 @@ function page() {
             </div>
           </div>
 
-          {/* FAQ Item */}
           <div
             className="accordion-item wow fadeInUp"
             data-wow-delay="1s"
@@ -995,11 +822,9 @@ function page() {
             </div>
           </div>
         </div>
-        {/* FAQ Accordion End */}
       </div>
 
       <div className="col-xl-6">
-        {/* Faq Image Box Start */}
         <div className="faq-image-box">
           <div className="faq-image">
             <figure className="image-anime reveal">
@@ -1007,7 +832,6 @@ function page() {
             </figure>
           </div>
 
-          {/* FAQ CTA Box Start */}
           <div className="faq-cta-box">
             <div className="faq-cta-box-image">
               <div className="faq-cta-image">
@@ -1031,13 +855,10 @@ function page() {
               <h3>“Success in business comes from clear strategy.”</h3>
             </div>
           </div>
-          {/* FAQ CTA Box End */}
         </div>
-        {/* Faq Image Box End */}
       </div>
 
       <div className="col-xl-12">
-        {/* FAQ Company Slider Start */}
         <div
           className="faq-company-slider-box wow fadeInUp"
           data-wow-delay="0.2s"
@@ -1065,127 +886,14 @@ function page() {
             </div>
           </div>
         </div>
-        {/* FAQ Company Slider End */}
       </div>
     </div>
   </div>
-</div>
+</div> */}
 {/* Our Faqs Section End */}
 
 {/* Main Footer Start */}
-<footer className="main-footer-metal dark-section">
-  <div className="container">
-    <div className="row">
-      <div className="col-xl-4">
-        {/* About Footer Start */}
-        <div className="about-footer-metal">
-          {/* Footer Logo Start */}
-          <div className="footer-logo-metal">
-          <img src="images/logo1.png" alt="Logo" />
-          </div>
-          {/* Footer Logo End */}
-
-          {/* Footer Newsletter Form Start */}
-          <div className="footer-newsletter-form-metal">
-            <h2>Subscribe</h2>
-            <form id="newslettersForm" action="#" method="POST">
-              <div className="form-group">
-                <input
-                  type="email"
-                  name="mail"
-                  className="form-control"
-                  id="mail"
-                  placeholder="Email Address *"
-                  required
-                />
-                <button
-                  type="submit"
-                  className="newsletter-btn-metal"
-                >
-                  <i className="fa-solid fa-paper-plane"></i>
-                </button>
-              </div>
-            </form>
-          </div>
-          {/* Footer Newsletter Form End */}
-        </div>
-        {/* About Footer End */}
-      </div>
-
-      <div className="col-xl-8">
-        {/* Footer Links Box Start */}
-        <div className="footer-links-box-metal">
-          {/* Quick Links */}
-          <div className="footer-links-metal">
-            <h3>Quick Links</h3>
-            <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="/about-us">About Us</a></li>
-              <li><a href="/services">Services</a></li>
-              <li><a href="/blog">Our Blogs</a></li>
-              <li><a href="/contact-us">Contact Us</a></li>
-            </ul>
-          </div>
-
-          {/* Our Services */}
-          <div className="footer-links-metal">
-            <h3>Our Services</h3>
-           <ul>
-  <li><a href="/services">General Contracting</a></li>
-  <li><a href="/services">Facilities Management</a></li>
-  <li><a href="/services">Electro Mechanical Services (MEP)</a></li>
-  <li><a href="/services">Interior Design & Fit-Out</a></li>
-  <li><a href="/services">ELV Systems</a></li>
-</ul>
-
-          </div>
-
-          {/* Social Media */}
-          <div className="footer-links-metal">
-            <h3>Social Media</h3>
-            <ul>
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">LinkedIn</a></li>
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Dribbble</a></li>
-            </ul>
-          </div>
-
-          {/* Contact Information */}
-          <div className="footer-links-metal footer-contact-list-metal">
-            <h3>Contact Information</h3>
-            <ul>
-              <li>
-                <b>Phone:</b>{" "}
-                <a href="tel:+123456798">+9976455554</a>
-              </li>
-              <li>
-                <b>Email:</b>{" "}
-                <a href="#">
-                  nova@.com
-                </a>
-              </li>
-              <li>
-                <b>Address:</b> 123 Main Street, kakkanad,
-                kochi, 66461
-              </li>
-            </ul>
-          </div>
-        </div>
-        {/* Footer Links Box End */}
-      </div>
-
-      <div className="col-xl-12">
-        {/* Footer Copyright Start */}
-        <div className="footer-copyright-text-metal">
-          <p>Copyright © 2026 All Rights Reserved.</p>
-        </div>
-        {/* Footer Copyright End */}
-      </div>
-    </div>
-  </div>
-</footer>
+<Footer/>
 {/* Main Footer End */}
     </>
   )

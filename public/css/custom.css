@@ -395,11 +395,19 @@ a:focus{
 
 .dark-section{
 	background-color: var(--primary-color);
+	background-image: url('https://img.freepik.com/free-photo/beautiful-view-construction-site-city-sunset_181624-9347.jpg?t=st=1771407737~exp=1771411337~hmac=cb5a01780cbc342e2387afd473c33b8bedcb982704811b6dec457140f2b9de71&w=1480');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.dark{
+	background-color: var(--primary-color);
 	background-image: url('../images/dark-section-bg-image.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
+
 
 .section-row{
 	margin-bottom: 80px;
