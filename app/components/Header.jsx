@@ -17,7 +17,7 @@ function Header() {
             <div className="collapse navbar-collapse main-menu">
               <div className="nav-menu-wrapper">
                 <ul className="navbar-nav mr-auto" id="menu">
-                  <li className="nav-item submenu">
+                  <li className="nav-item ">
                     <a className="nav-link" href="/">
                       Home
                     </a>
