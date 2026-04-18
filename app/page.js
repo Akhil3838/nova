@@ -18,7 +18,7 @@ export default function Home() {
 {/* Preloader End */}
 
 {/* Header Start */}
-<header className="main-header main-header-metal">
+<header className="main-header main-header-metal home-header">
   <div className="header-sticky">
     <nav className="navbar navbar-expand-lg">
       <div className="container">
@@ -601,7 +601,7 @@ export default function Home() {
 {/* Our Services Section End */}
 
 {/* Why Choose Us Section Start */}
-<div className="why-choose-us-metal">
+{/* <div className="why-choose-us-metal">
   <div className="container">
     <div className="row">
 
@@ -790,12 +790,12 @@ export default function Home() {
 
     </div>
   </div>
-</div>
+</div> */}
 {/* Why Choose Us Section End */}
 
 
 {/* Our Story Section Start */}
-<div className="our-story-metal dark-section parallaxie">
+{/* <div className="our-story-metal dark-section parallaxie">
   <div className="container">
 
     <div className="row align-items-center">
@@ -849,11 +849,11 @@ export default function Home() {
     </div>
 
   </div>
-</div>
+</div> */}
 {/* Our Story Section End */}
 
 {/* Our Case Studies Section Start */}
-<div className="our-case-study case-study-metal">
+{/* <div className="our-case-study case-study-metal">
   <div className="container">
 
     <div className="row section-row">
@@ -1008,16 +1008,15 @@ export default function Home() {
 
     </div>
   </div>
-</div>
+</div> */}
 {/* Our Case Studies Section End */}
 
 
 {/* Core Features Section Start */}
-<div className="core-features-metal">
+{/* <div className="core-features-metal">
   <div className="container">
     <div className="row section-row">
       <div className="col-lg-12">
-        {/* Section Title Start */}
         <div className="section-title section-title-center">
           <span className="section-sub-title wow fadeInUp">
             Core Feature
@@ -1029,15 +1028,12 @@ export default function Home() {
             Core Feature Powering Financial and Business Success
           </h2>
         </div>
-        {/* Section Title End */}
       </div>
     </div>
 
     <div className="row">
       <div className="col-xl-4 col-md-6">
-        {/* Feature Item Start */}
         <div className="feature-item-metal wow fadeInUp">
-          {/* Feature Item Header Start */}
           <div className="feature-item-header-metal">
             <div className="icon-box">
               <img
@@ -1046,7 +1042,6 @@ export default function Home() {
               />
             </div>
 
-            {/* Feature Item Content Start */}
             <div className="feature-item-content-metal">
               <h3>Personalized Strategies</h3>
               <p>
@@ -1054,29 +1049,22 @@ export default function Home() {
                 financial situation.
               </p>
             </div>
-            {/* Feature Item Content End */}
           </div>
-          {/* Feature Item Header End */}
 
-          {/* Feature Item Image Start */}
           <div className="feature-item-image-metal">
             <img
               src="images/feature-item-image-1-metal.png"
               alt=""
             />
           </div>
-          {/* Feature Item Image End */}
         </div>
-        {/* Feature Item End */}
       </div>
 
       <div className="col-xl-4 col-md-6">
-        {/* Feature Item Start */}
         <div
           className="feature-item-metal wow fadeInUp"
           data-wow-delay="0.2s"
         >
-          {/* Feature Item Header Start */}
           <div className="feature-item-header-metal">
             <div className="icon-box">
               <img
@@ -1085,7 +1073,6 @@ export default function Home() {
               />
             </div>
 
-            {/* Feature Item Content Start */}
             <div className="feature-item-content-metal">
               <h3>Data-Driven Insights</h3>
               <p>
@@ -1093,29 +1080,22 @@ export default function Home() {
                 financial situation.
               </p>
             </div>
-            {/* Feature Item Content End */}
           </div>
-          {/* Feature Item Header End */}
 
-          {/* Feature Item Image Start */}
           <div className="feature-item-image-metal">
             <img
               src="images/feature-item-image-2-metal.png"
               alt=""
             />
           </div>
-          {/* Feature Item Image End */}
         </div>
-        {/* Feature Item End */}
       </div>
 
       <div className="col-xl-4 col-md-6">
-        {/* Feature Item Start */}
         <div
           className="feature-item-metal wow fadeInUp"
           data-wow-delay="0.4s"
         >
-          {/* Feature Item Header Start */}
           <div className="feature-item-header-metal">
             <div className="icon-box">
               <img
@@ -1124,7 +1104,6 @@ export default function Home() {
               />
             </div>
 
-            {/* Feature Item Content Start */}
             <div className="feature-item-content-metal">
               <h3>Risk Management</h3>
               <p>
@@ -1132,24 +1111,18 @@ export default function Home() {
                 financial situation.
               </p>
             </div>
-            {/* Feature Item Content End */}
           </div>
-          {/* Feature Item Header End */}
 
-          {/* Feature Item Image Start */}
           <div className="feature-item-image-metal">
             <img
               src="images/feature-item-image-3-metal.png"
               alt=""
             />
           </div>
-          {/* Feature Item Image End */}
         </div>
-        {/* Feature Item End */}
       </div>
 
       <div className="col-lg-12">
-        {/* Section Footer Text Start */}
         <div
           className="section-footer-text wow fadeInUp"
           data-wow-delay="0.2s"
@@ -1172,11 +1145,10 @@ export default function Home() {
             <li>Our 4200 Review</li>
           </ul>
         </div>
-        {/* Section Footer Text End */}
       </div>
     </div>
   </div>
-</div>
+</div> */}
 {/* Core Features Section End */}
 
 {/* Our Pricing Section Start */}

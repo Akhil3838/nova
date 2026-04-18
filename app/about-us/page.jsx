@@ -417,11 +417,10 @@ function page() {
 {/* Our Approach Section End */}
 
 {/* Our Benefits Section Start */}
-<div className="our-benefits dark parallaxie">
+{/* <div className="our-benefits dark parallaxie">
   <div className="container">
     <div className="row section-row">
       <div className="col-lg-12">
-        {/* Section Title Start */}
         <div className="section-title section-title-center">
           <span className="section-sub-title wow fadeInUp">
             Our Benefits
@@ -439,13 +438,11 @@ function page() {
             confidence.
           </p>
         </div>
-        {/* Section Title End */}
       </div>
     </div>
 
     <div className="row">
       <div className="col-xl-3 col-md-6">
-        {/* Benefit Item Start */}
         <div className="benefit-item wow fadeInUp">
           <div className="benefit-item-header">
             <div className="icon-box">
@@ -470,7 +467,6 @@ function page() {
             </ul>
           </div>
         </div>
-        {/* Benefit Item End */}
       </div>
 
       <div className="col-xl-3 col-md-6">
@@ -564,12 +560,10 @@ function page() {
       </div>
 
       <div className="col-lg-12">
-        {/* Section Footer Text Start */}
         <div
           className="section-footer-text section-satisfy-img wow fadeInUp"
           data-wow-delay="0.4s"
         >
-          {/* Satisfy Client Images Start */}
           <div className="satisfy-client-images">
             <div className="satisfy-client-image">
               <figure className="image-anime">
@@ -586,28 +580,24 @@ function page() {
               />
             </div>
           </div>
-          {/* Satisfy Client Images End */}
 
           <p>
             Let's make something great work together.{" "}
             <a href="contact.html">Get Free Quote</a>
           </p>
         </div>
-        {/* Section Footer Text End */}
       </div>
     </div>
   </div>
-</div>
+</div> */}
 {/* Our Benefits Section End */}
 
 {/* Why Choose Us Section Start */}
-<div className="why-choose-us">
+{/* <div className="why-choose-us">
   <div className="container">
     <div className="row">
       <div className="col-xl-6">
-        {/* Why Choose Us Image Box Start */}
         <div className="why-choose-us-image-box">
-          {/* Why Choose Us Image Start */}
           <div className="why-choose-us-image">
             <figure className="image-anime reveal">
               <img
@@ -616,11 +606,8 @@ function page() {
               />
             </figure>
           </div>
-          {/* Why Choose Us Image End */}
 
-          {/* Why Choose Growth Box Start */}
           <div className="why-choose-growth-box">
-            {/* Growth Box Header */}
             <div className="why-choose-growth-box-header">
               <div className="icon-box">
                 <img
@@ -635,7 +622,6 @@ function page() {
               </div>
             </div>
 
-            {/* Growth Box Body */}
             <div className="why-choose-growth-box-body">
               <div className="why-choose-growth-box-content">
                 <p>Total Growth</p>
@@ -653,15 +639,11 @@ function page() {
               </div>
             </div>
           </div>
-          {/* Why Choose Growth Box End */}
         </div>
-        {/* Why Choose Us Image Box End */}
       </div>
 
       <div className="col-xl-6">
-        {/* Why Choose Us Content Start */}
         <div className="why-choose-content">
-          {/* Section Title Start */}
           <div className="section-title">
             <span className="section-sub-title wow fadeInUp">
               Why Choose Us
@@ -682,9 +664,7 @@ function page() {
               optimize performance.
             </p>
           </div>
-          {/* Section Title End */}
 
-          {/* Body Start */}
           <div
             className="why-choose-body wow fadeInUp"
             data-wow-delay="0.4s"
@@ -721,9 +701,7 @@ function page() {
               </div>
             </div>
           </div>
-          {/* Body End */}
 
-          {/* List Start */}
           <div
             className="why-choose-list wow fadeInUp"
             data-wow-delay="0.6s"
@@ -735,9 +713,7 @@ function page() {
               <li>Expertise That Powers Your Growth</li>
             </ul>
           </div>
-          {/* List End */}
 
-          {/* Button Start */}
           <div
             className="why-choose-btn wow fadeInUp"
             data-wow-delay="0.8s"
@@ -746,13 +722,10 @@ function page() {
               Learn More
             </a>
           </div>
-          {/* Button End */}
         </div>
-        {/* Why Choose Us Content End */}
       </div>
 
       <div className="col-lg-12">
-        {/* Section Footer Text Start */}
         <div
           className="section-footer-text wow fadeInUp"
           data-wow-delay="0.2s"
@@ -775,21 +748,18 @@ function page() {
             <li>Our 4200 Review</li>
           </ul>
         </div>
-        {/* Section Footer Text End */}
       </div>
     </div>
   </div>
-</div>
+</div> */}
 {/* Why Choose Us Section End */}
 
 {/* Our Expertise Section Start */}
-<div className="our-expertise">
+{/* <div className="our-expertise">
   <div className="container">
     <div className="row align-items-center">
       <div className="col-xl-6">
-        {/* Expertise Content Box Start */}
         <div className="expertise-content-box">
-          {/* Section Title Start */}
           <div className="section-title section-title-center">
             <span className="section-sub-title wow fadeInUp">
               Our Global Reach
@@ -809,9 +779,7 @@ function page() {
               to clients worldwide.
             </p>
           </div>
-          {/* Section Title End */}
 
-          {/* Expertise Content List Start */}
           <div
             className="expertise-content-list wow fadeInUp"
             data-wow-delay="0.4s"
@@ -823,9 +791,7 @@ function page() {
               <li>Specifically to fit your unique business</li>
             </ul>
           </div>
-          {/* Expertise Content List End */}
 
-          {/* Expertise Content Button Start */}
           <div
             className="expertise-content-btn wow fadeInUp"
             data-wow-delay="0.6s"
@@ -834,13 +800,10 @@ function page() {
               Learn More
             </a>
           </div>
-          {/* Expertise Content Button End */}
         </div>
-        {/* Expertise Content Box End */}
       </div>
 
       <div className="col-xl-6">
-        {/* Expertise Map Image Start */}
         <div className="expertise-map-image wow fadeInUp">
           <figure>
             <img
@@ -849,16 +812,13 @@ function page() {
             />
           </figure>
         </div>
-        {/* Expertise Map Image End */}
       </div>
 
       <div className="col-lg-12">
-        {/* Expertise Counter List Start */}
         <div
           className="expertise-counter-list wow fadeInUp"
           data-wow-delay="0.2s"
         >
-          {/* Counter Item */}
           <div className="expertise-counter-item">
             <h2>
               <span className="counter">250</span>+
@@ -866,7 +826,6 @@ function page() {
             <p>Projects Completed</p>
           </div>
 
-          {/* Counter Item */}
           <div className="expertise-counter-item">
             <h2>
               <span className="counter">1</span>K+
@@ -874,7 +833,6 @@ function page() {
             <p>Satisfied Clients</p>
           </div>
 
-          {/* Counter Item */}
           <div className="expertise-counter-item">
             <h2>
               <span className="counter">50</span>+
@@ -882,7 +840,6 @@ function page() {
             <p>Global Locations</p>
           </div>
 
-          {/* Counter Item */}
           <div className="expertise-counter-item">
             <h2>
               <span className="counter">98</span>%
@@ -890,7 +847,6 @@ function page() {
             <p>Client satisfaction rate</p>
           </div>
 
-          {/* Counter Item */}
           <div className="expertise-counter-item">
             <h2>
               <span className="counter">50</span>+
@@ -898,20 +854,18 @@ function page() {
             <p>Industry Awards</p>
           </div>
         </div>
-        {/* Expertise Counter List End */}
       </div>
     </div>
   </div>
-</div>
+</div> */}
 {/* Our Expertise Section End */}
 
 
 {/* Our Process Section Start */}
-<div className="our-process">
+{/* <div className="our-process">
   <div className="container">
     <div className="row section-row">
       <div className="col-lg-12">
-        {/* Section Title Start */}
         <div className="section-title section-title-center">
           <span className="section-sub-title wow fadeInUp">
             Our Process
@@ -931,15 +885,12 @@ function page() {
             needs to designing customized strategies.
           </p>
         </div>
-        {/* Section Title End */}
       </div>
     </div>
 
     <div className="row">
       <div className="col-lg-12">
-        {/* Process Steps Item List Start */}
         <div className="process-steps-item-list">
-          {/* Step 1 */}
           <div className="process-step-item box-1 wow fadeInUp">
             <div className="process-step-item-header">
               <div className="process-step-item-no">
@@ -968,7 +919,6 @@ function page() {
             </div>
           </div>
 
-          {/* Step 2 */}
           <div
             className="process-step-item box-2 wow fadeInUp"
             data-wow-delay="0.2s"
@@ -1000,7 +950,6 @@ function page() {
             </div>
           </div>
 
-          {/* Step 3 */}
           <div
             className="process-step-item box-3 wow fadeInUp"
             data-wow-delay="0.4s"
@@ -1032,11 +981,9 @@ function page() {
             </div>
           </div>
         </div>
-        {/* Process Steps Item List End */}
       </div>
 
       <div className="col-lg-12">
-        {/* Our Process Footer Start */}
         <div
           className="our-process-footer wow fadeInUp"
           data-wow-delay="0.4s"
@@ -1074,11 +1021,10 @@ function page() {
             </p>
           </div>
         </div>
-        {/* Our Process Footer End */}
       </div>
     </div>
   </div>
-</div>
+</div> */}
 {/* Our Process Section End */}
 
 

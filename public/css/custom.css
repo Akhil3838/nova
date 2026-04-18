@@ -8906,6 +8906,24 @@ header.main-header .header-sticky.active{
 	color: var(--primary-color);
 }
 
+/* Home page header styles */
+.main-header.home-header .header-sticky{
+	background: white !important;
+}
+
+.main-header.home-header .header-sticky.active{
+	background: white !important;
+}
+
+.main-header.home-header .main-menu ul li a{
+	color: black !important;
+}
+
+.main-header.home-header .main-menu ul li a:hover,
+.main-header.home-header .main-menu ul li a:focus{
+	color: var(--accent-color) !important;
+}
+
 .hero-metal{
 	padding: 200px 0 100px;
 }

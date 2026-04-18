@@ -220,28 +220,21 @@ function page() {
 {/* Page Services End */}
 
 {/* Our Story Section Start */}
-<div className="our-story dark-section">
-  {/* Video Start */}
+{/* <div className="our-story dark-section">
   <div className="our-story-bg-video">
-    {/* Selfhosted Video Start */}
     <video autoPlay muted loop id="storyvideo">
       <source
         src="https://videos.pexels.com/video-files/7404965/7404965-uhd_2732_1440_25fps.mp4"
         type="video/mp4"
       />
     </video>
-    {/* Selfhosted Video End */}
   </div>
-  {/* Video End */}
 
   <div className="container">
     <div className="row">
       <div className="col-xl-6">
-        {/* Our Story Content Start */}
         <div className="our-story-content">
-          {/* Our Story Content Header Start */}
           <div className="our-story-content-header">
-            {/* Section Title Start */}
             <div className="section-title">
               <span className="section-sub-title wow fadeInUp">
                 Watch Our Story
@@ -255,9 +248,7 @@ function page() {
                 strategic guidance, practical solutions.
               </p>
             </div>
-            {/* Section Title End */}
 
-            {/* Video Play Button Start */}
             <div className="video-play-button wow fadeInUp" data-wow-delay="0.4s">
               <a
                 href="https://www.youtube.com/watch?v=Y-x0efG1seA"
@@ -268,11 +259,8 @@ function page() {
               </a>
               <h3>Watch Our Video</h3>
             </div>
-            {/* Video Play Button End */}
           </div>
-          {/* Our Story Content Header End */}
 
-          {/* Our Story Content Body Start */}
           <div
             className="our-story-content-body wow fadeInUp"
             data-wow-delay="0.6s"
@@ -282,17 +270,12 @@ function page() {
               the foundation for sustainable growth.
             </h3>
           </div>
-          {/* Our Story Content Body End */}
         </div>
-        {/* Our Story Content End */}
       </div>
 
       <div className="col-xl-6">
-        {/* Our Story History Box Start */}
         <div className="our-story-history-box">
-          {/* Story History Box Header Start */}
           <div className="story-history-box-header wow fadeInUp">
-            {/* Satisfy Client Images Start */}
             <div className="satisfy-client-images">
               {[1, 2, 3, 4, 5].map((item) => (
                 <div className="satisfy-client-image" key={item}>
@@ -302,9 +285,7 @@ function page() {
                 </div>
               ))}
             </div>
-            {/* Satisfy Client Images End */}
 
-            {/* Story History Box Header Content Start */}
             <div className="story-history-box-header-content">
               <h3>
                 <span className="counter">100</span>+ Awards & Recognitions
@@ -315,16 +296,12 @@ function page() {
                 expertise and results.
               </p>
             </div>
-            {/* Story History Box Header Content End */}
           </div>
-          {/* Story History Box Header End */}
 
-          {/* Story Counter Items List Start */}
           <div
             className="story-counter-items-list wow fadeInUp"
             data-wow-delay="0.2s"
           >
-            {/* Story Counter Item */}
             <div className="story-counter-item">
               <div className="story-counter-item-header">
                 <h2>
@@ -337,7 +314,6 @@ function page() {
               </div>
             </div>
 
-            {/* Story Counter Item */}
             <div className="story-counter-item">
               <div className="story-counter-item-header">
                 <h2>
@@ -350,22 +326,19 @@ function page() {
               </div>
             </div>
           </div>
-          {/* Story Counter Items List End */}
         </div>
-        {/* Our Story History Box End */}
       </div>
     </div>
   </div>
-</div>
+</div> */}
 {/* Our Story Section End */}
 
 {/* Why Choose Us Section Start */}
-<div className="why-choose-us">
+{/* <div className="why-choose-us">
   <div className="container">
     <div className="row">
 
       <div className="col-xl-6">
-        {/* Why Choose Us Image Box Start */}
         <div className="why-choose-us-image-box">
           <div className="why-choose-us-image">
             <figure className="image-anime reveal">
@@ -373,7 +346,6 @@ function page() {
             </figure>
           </div>
 
-          {/* Why Choose Growth Box Start */}
           <div className="why-choose-growth-box">
             <div className="why-choose-growth-box-header">
               <div className="icon-box">
@@ -398,13 +370,10 @@ function page() {
               </div>
             </div>
           </div>
-          {/* Why Choose Growth Box End */}
         </div>
-        {/* Why Choose Us Image Box End */}
       </div>
 
       <div className="col-xl-6">
-        {/* Why Choose Us Content Start */}
         <div className="why-choose-content">
           <div className="section-title">
             <span className="section-sub-title wow fadeInUp">
@@ -462,7 +431,6 @@ function page() {
             </a>
           </div>
         </div>
-        {/* Why Choose Us Content End */}
       </div>
 
       <div className="col-lg-12">
@@ -489,7 +457,7 @@ function page() {
 
     </div>
   </div>
-</div>
+</div> */}
 {/* Why Choose Us Section End */}
 
 {/* Our Testimonials Section Start */}
